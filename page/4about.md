@@ -11,11 +11,12 @@ type: page
 
 ## 联系我
 
+* [Bilibili](https://space.bilibili.com/54818676)
 * [Github](https://github.com/Orangelop)
-* Email：2603859739@qq.com / chengchunhui251@gmail.com
 * [Weibo](http://weibo.com/Orangelop)
 * [知乎](https://www.zhihu.com/people/Orangelop)
 * [Facebook](https://www.facebook.com/chengchunhui)
+* Email：2603859739@qq.com / chengchunhui251@gmail.com
 
 ## 友情链接
 
