@@ -23,6 +23,6 @@ type: page
 
 无
 
-## Comments
+## 评论
 
 {% include comments.html %}
