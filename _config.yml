@@ -7,13 +7,13 @@
 
 # Site settings
 title: Orangelop’s Blog
-brief-intro: emm，没有想说的，就是一个blog
+brief-intro: Tips:如果没有查看到最新的文章，请清理缓存！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://orangelop.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
-# other links
+# 其他链接
 twitter_username: chengchunhui
 facebook_username: chengchunhui
 github_username:  Orangelop
@@ -22,10 +22,11 @@ weibo_username: Orangelop
 zhihu_username: Orangelop
 linkedIn_username: 成春辉
 dribbble_username:
+bilibili_userid:54818676      # 你的B站UID
 
 description_footer: Orangelop's Blog
 
-# comments
+# 评论
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname:
