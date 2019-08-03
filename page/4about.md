@@ -16,7 +16,8 @@ type: page
 * [Weibo](http://weibo.com/Orangelop)
 * [知乎](https://www.zhihu.com/people/Orangelop)
 * [Facebook](https://www.facebook.com/chengchunhui)
-* Email：2603859739@qq.com / chengchunhui251@gmail.com
+* [Email](mailto:chengchunhui251@gmail.com)
+* [Email(QQ)](mailto:2603859739@qq.com)
 
 ## 友情链接
 
