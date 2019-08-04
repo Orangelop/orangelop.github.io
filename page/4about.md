@@ -9,7 +9,7 @@ type: page
 * 目录
 {:toc}
 
-## 联系我
+## 你可以在这些地方找到我 φ(≧ω≦*)♪
 
 * [Bilibili](https://space.bilibili.com/54818676)
 * [Github](https://github.com/Orangelop)
@@ -19,10 +19,10 @@ type: page
 * [Email](mailto:chengchunhui251@gmail.com)
 * [Email(QQ)](mailto:2603859739@qq.com)
 
-## 友情链接
+## 友情链接 (๑•̀ㅂ•́)و✧
 
 无
 
-## 评论
+## 评论 Hi~ o(*￣▽￣*)ブ
 
 {% include gittalk_comments.html%}
