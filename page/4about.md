@@ -9,7 +9,7 @@ type: page
 * 目录
 {:toc}
 
-![aboutpage](/img/about_bg.jpg)
+![aboutpage](https://github.com/Orangelop/orangelop.github.io/raw/master/img/about-bg.jpg)
 
 ## 你可以在这些地方找到我 φ(≧ω≦*)♪
 
