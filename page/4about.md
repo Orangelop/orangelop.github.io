@@ -25,4 +25,4 @@ type: page
 
 ## 评论
 
-{% include comments.html %}
+{% include gittalk_comments.html%}
