@@ -2,7 +2,7 @@
 layout: page
 title: 收集
 permalink: /collection/
-icon: collection
+icon: bookmark
 type: page
 ---
 
