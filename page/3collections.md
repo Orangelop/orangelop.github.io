@@ -2,7 +2,7 @@
 layout: page
 title: 收集
 permalink: /collection/
-icon: bookmark
+icon: collection
 type: page
 ---
 
@@ -15,6 +15,6 @@ type: page
 
     test.
 
-## 评论
+## 评论 Hi~ o(￣▽￣)ブ
 
 {% include gittalk_comments.html %}
