@@ -69,6 +69,35 @@ layout: default
 
 
     </div>
+    <button class="anchor"><i class="fa fa-comments"></i></button>
+    <div class="left">
+        <div class="wrap">
+            <div>
+                评论
+            </div>
+            <!-- Link Gitalk 的支持文件  -->
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+            <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+            <div id="gitalk-container"></div>     <script type="text/javascript">
+            var gitalk = new Gitalk({
+
+            // gitalk的主要参数
+            clientID: '复制刚才生成的clientID',
+            clientSecret: '复制刚才生成的clientSecret',
+            repo: '自己博客的地址',
+            owner: 'GitHub的用户名',
+            admin: ['Github的用户名'],
+            id:window.location.pathname,
+
+            });
+            gitalk.render('gitalk-container');
+            </script> 
+            <!-- Gitalk end -->
+        </div>
+    </div>
+
+            
+    </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
     <div class="right">
         <div class="wrap">
