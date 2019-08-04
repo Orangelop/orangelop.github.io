@@ -9,6 +9,8 @@ type: page
 * 目录
 {:toc}
 
+![aboutpage](/img/about_bg.jpg)
+
 ## 你可以在这些地方找到我 φ(≧ω≦*)♪
 
 * [Bilibili](https://space.bilibili.com/54818676)
