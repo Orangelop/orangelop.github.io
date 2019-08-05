@@ -6,7 +6,7 @@ icon: bookmark
 type: page
 ---
 
-![collectionsbg](https://github.com/Orangelop/orangelop.github.io/blob/master/img/all-page-bg.jpg)
+![collectionsbg](https://github.com/Orangelop/orangelop.github.io/raw/master/img/all-page-bg.jpg)
 
 * content
 {:toc}
