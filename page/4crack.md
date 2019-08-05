@@ -6,7 +6,7 @@ icon: share
 type: page
 ---
 
-![crakebg](https://github.com/Orangelop/orangelop.github.io/blob/master/img/all-page-bg.jpg)
+![crakebg](https://github.com/Orangelop/orangelop.github.io/raw/master/img/all-page-bg.jpg)
 
 * content
 {:toc}
