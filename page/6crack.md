@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 破解分享
+title: 破解
 permalink: /crack/
 icon: share
 type: page
 ---
 
-## 破解分享
+## 破解
 
 * [test](http://orangelop.github.io)
 
