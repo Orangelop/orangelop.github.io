@@ -2,7 +2,7 @@
 layout: page
 title: 视频
 permalink: /videos/
-icon: heart
+icon: video
 type: page
 ---
 
