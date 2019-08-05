@@ -14,6 +14,7 @@ type: page
 ## 音乐推荐
 
 1.[2017 End of the Year Mix-Vicetone](https://music.163.com/#/song?id=525238081)
+2.[2018 End of the Year Mix-Vicetone](https://music.163.com/#/song?id=1334259177)
 
 ## 评论 Hi~ o(￣▽￣)ブ
 
