@@ -11,9 +11,7 @@ type: page
 
 ## 音乐推荐
 
-* [test](http://orangelop.github.io)
-
-    test.
+{% include music_rec.html %}
 
 ## 评论 Hi~ o(￣▽￣)ブ
 
