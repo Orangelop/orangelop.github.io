@@ -6,7 +6,7 @@ icon: music
 type: page
 ---
 
-![musicbg](https://github.com/Orangelop/orangelop.github.io/blob/master/img/all-page-bg.jpg)
+![musicbg](https://github.com/Orangelop/orangelop.github.io/raw/master/img/all-page-bg.jpg)
 
 * content
 {:toc}
