@@ -2,7 +2,7 @@
 layout: page
 title: 视频
 permalink: /videos/
-icon: video
+icon: heart
 type: page
 ---
 
@@ -10,6 +10,8 @@ type: page
 {:toc}
 
 ## 新视频的B站链接都会发在这里哦 φ(≧ω≦*)♪
+
+据说三连的人都很帅哦 φ(≧ω≦*)♪
 
 1.[test](https://orangelop.github.io/)
 
