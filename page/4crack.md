@@ -6,6 +6,9 @@ icon: share
 type: page
 ---
 
+* content
+{:toc}
+
 ## 破解
 
 * [test](http://orangelop.github.io)
