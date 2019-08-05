@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 
-![videobg](https://github.com/Orangelop/orangelop.github.io/blob/master/img/all-page-bg.jpg)
+![videobg](https://github.com/Orangelop/orangelop.github.io/raw/master/img/all-page-bg.jpg)
 
 ## 新视频的B站链接都会发在这里 φ(≧ω≦*)♪
 
