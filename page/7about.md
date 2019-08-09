@@ -25,7 +25,7 @@ type: page
 
 赞助的人都很帅φ(≧ω≦*)
 
-{% include donate.html %}
+<img src=”https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_alipay.jpg” width = 30% height = 30% /><img src=”https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_wechat.png” width = 35% height = 30% />
 
 
 ## 友情链接 (๑•̀ㅂ•́)و✧
