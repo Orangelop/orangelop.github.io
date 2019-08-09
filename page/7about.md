@@ -21,6 +21,10 @@ type: page
 * [Email](mailto:chengchunhui251@gmail.com)
 * [Email(QQ)](mailto:2603859739@qq.com)
 
+## 赞助 (* ￣3)(ε￣ *)
+
+![donate_alipay](https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_alipay.jpg)![donate_wechat](https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_wechat.png)
+
 ## 友情链接 (๑•̀ㅂ•́)و✧
 
 无
