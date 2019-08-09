@@ -23,9 +23,7 @@ type: page
 
 ## 赞助 (* ￣3)(ε￣ *)
 
-![donate_alipay](https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_alipay.jpg)![donate_wechat]()
-
-<img src="https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_wechat.png" width = 30% height = 30% />
+<img src="https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_alipay.jpg" width = 30% height = 30% /><img src="https://github.com/Orangelop/orangelop.github.io/raw/master/img/donate_wechat.png" width = 30% height = 30% />
 
 ## 友情链接 (๑•̀ㅂ•́)و✧
 
