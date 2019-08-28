@@ -2,7 +2,7 @@
 layout: page
 title: CXK打篮球
 permalink: /cxkball/
-icon: game
+icon: games
 type: page
 ---
 
