@@ -6,9 +6,6 @@ icon: games
 type: page
 ---
 
-* content
-{:toc}
-
 {% include index-cxkball.html %}
 
 ## 关于
