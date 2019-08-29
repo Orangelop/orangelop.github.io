@@ -78,4 +78,4 @@ git clone https://github.com/kasuganosoras/cxk-ball
 
 ## License
 
-本项目使用 [MIT](--KEEP--) 许可协议开放其源代码，任何人可在遵守协议的前提下进行修改、分发、二次创作等。
+本项目使用 [MIT](https://github.com/Orangelop/orangelop.github.io/blob/master/cxk-ball/LICENSE-CXKBALL) 许可协议开放其源代码，任何人可在遵守协议的前提下进行修改、分发、二次创作等。
