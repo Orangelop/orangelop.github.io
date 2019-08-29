@@ -40,7 +40,7 @@ git clone https://github.com/kasuganosoras/cxk-ball
 
 > __问：这个游戏是否侵犯他人肖像权__
 
-[请看这篇说明](about.md)
+[请看这篇说明](about-cxkball.md)
 
 > __问：贴图显示不正确或者很奇怪__
 
