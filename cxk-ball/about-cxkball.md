@@ -17,9 +17,9 @@
 
 ## README
 
-[Chinese Version](--KEEP--)
+[Chinese Version](https://github.com/Orangelop/orangelop.github.io/blob/master/cxk-ball/README-CXKBALL.md)
 
-[English Version](--KEEP--)
+[English Version](https://github.com/Orangelop/orangelop.github.io/blob/master/cxk-ball/README_EN-CXKBALL.md)
 
 ## 作者的Demo
 
