@@ -25,8 +25,7 @@ type: page
 
 赞助的人都很帅φ(≧ω≦*)
 
-建设中。。。。。。
-
+![donation](https://github.com/Orangelop/orangelop.github.io/raw/master/img/donation.png)
 ## 友情链接 (๑•̀ㅂ•́)و✧
 
 无
