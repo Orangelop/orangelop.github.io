@@ -2,7 +2,7 @@
 layout: post  
 title:  "Arch Linux Installation Guide Chinese"  
 date:   2020-03-12 06:20:00  
-categories: Arch-Linux  
+categories: 教程
 tags: Arch-Linux  
 excerpt:   如何安装Arch Linux 傻瓜式教学哦 更新于2020.03.12
 mathjax: true  
