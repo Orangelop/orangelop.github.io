@@ -8,7 +8,6 @@ excerpt:   如何安装Arch Linux 傻瓜式教学哦 更新于2020.03.12
 mathjax: true  
 ---
 
-# Arch Linux Installation Guide Chinese 2020
 ---
 
 我来了，第一篇真正的博文写一下如何安装Arch Linux吧  
