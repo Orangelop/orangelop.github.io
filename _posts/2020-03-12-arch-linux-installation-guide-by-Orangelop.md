@@ -4,7 +4,7 @@ title:  "Arch Linux Installation Guide Chinese 2020 Edited by Orangelop"
 date:   2020-03-12 06:20:00  
 categories: Arch Linux  
 tags: Arch Linux  
-excerpt:   
+excerpt:   如何安装Arch Linux
 mathjax: true  
 ---
 
