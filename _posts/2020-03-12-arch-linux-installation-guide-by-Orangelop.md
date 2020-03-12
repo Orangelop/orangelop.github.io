@@ -1,4 +1,3 @@
-# Arch Linux Installation Guide Chinese 2020
 ---
 layout: post  
 title:  "Arch Linux Installation Guide Chinese 2020 Edited by Orangelop"  
@@ -8,6 +7,8 @@ tags: Arch Linux
 excerpt:   
 mathjax: true  
 ---
+
+# Arch Linux Installation Guide Chinese 2020
 ---
 
 我来了，第一篇真正的博文写一下如何安装Arch Linux吧  
