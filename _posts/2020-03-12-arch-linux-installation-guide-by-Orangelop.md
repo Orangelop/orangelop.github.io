@@ -3,7 +3,7 @@ layout: post
 title:  "Arch Linux Installation Guide Chinese"  
 date:   2020-03-12 06:20:00  
 categories: Arch-Linux  
-tags: Arch Linux  
+tags: Arch-Linux  
 excerpt:   如何安装Arch Linux 傻瓜式教学哦 更新于2020.03.12
 mathjax: true  
 ---
@@ -16,6 +16,7 @@ Arch Linux官方简体中文文档指路：[Click Here](https://wiki.archlinux.o
 Edited by Orangelop [博客](https://orangelop.github.io/) / [哔哩哔哩](https://space.bilibili.com/54818676)
 
 ---
+
 ## Part 1 分区+联网
 ### 1.1 联网
 `dhcpcd &` ///联网并以后台模式运行  
