@@ -1,10 +1,10 @@
 ---
 layout: post  
-title:  "Arch Linux Installation Guide Chinese 2020 Edited by Orangelop"  
+title:  "Arch Linux Installation Guide Chinese"  
 date:   2020-03-12 06:20:00  
 categories: Arch Linux  
 tags: Arch Linux  
-excerpt:   如何安装Arch Linux
+excerpt:   如何安装Arch Linux 傻瓜式教学哦 更新与2020.03.12
 mathjax: true  
 ---
 
@@ -13,16 +13,7 @@ mathjax: true
 
 我来了，第一篇真正的博文写一下如何安装Arch Linux吧  
 Arch Linux官方简体中文文档指路：[Click Here](https://wiki.archlinux.org/index.php/Installation_guide_(简体中文))  
-Edited by Orangelop [博客](https://orangelop.github.io/)
-/ [哔哩哔哩](https://space.bilibili.com/54818676)
-
----
-## 目录
----
-
-[toc]
-
----
+Edited by Orangelop [博客](https://orangelop.github.io/) / [哔哩哔哩](https://space.bilibili.com/54818676)
 
 ---
 ## Part 1 分区+联网
@@ -41,8 +32,6 @@ Edited by Orangelop [博客](https://orangelop.github.io/)
 选NEW接下来回车直到输入yes再选bootable）*  
 `mkfs.ext4 /dev/sda1` ///格式化为ext4格式  
 `mount /dev/sda1 /mnt` ///挂载新建分区  
-
----
 
 ## Part 2 安装基本系统、引导+本地化+创建用户
 ### 2.1 安装基本系统
@@ -75,8 +64,6 @@ Edited by Orangelop [博客](https://orangelop.github.io/)
 为你刚才创建的用户 添加sudo权限）*  
 `ls /home` ///检查新用户是否创建好了 
 
----
-
 ## Part 3 安装图形界面
 ### 3.1 安装图形界面
 `pacman -S dhcpcd` ///安装网络组件  
@@ -87,8 +74,6 @@ Edited by Orangelop [博客](https://orangelop.github.io/)
 `systemctl enable gdm` ///开机启动Gnome  
 `systemctl enable NetworkManager` ///开机联网  
 `reboot` ///这时重启就可以进入图形界面了  
-
----
 
 ## Part 4 优化操作系统（添加常用源+安装常用软件）
 ### 4.1 添加archlinuxcn源
@@ -121,11 +106,7 @@ export XMODIFIERS="@im=fcitx"
 `pacman -S firefox` ///安装Firefox  
 `pacman -S netease-cloud-music` ///安装网易云音乐
 
----
-
 这样就算安装完成了  
 可以用了O(∩_∩)O哈哈~  
 ---Orangelop  
 于2020.03.12
-
----
