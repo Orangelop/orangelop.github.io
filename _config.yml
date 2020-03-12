@@ -14,16 +14,16 @@ url: "http://orangelop.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # 其他链接
-twitter_username: chengchunhui
-facebook_username: chengchunhui
+twitter_username: 
+facebook_username: 
 github_username: Orangelop
-email: 2603859739@qq.com
-weibo_username: Orangelop
+email: chengchugong@foxmail.com
+weibo_username: 老番茄死忠粉
 zhihu_username: Orangelop
-linkedIn_username: 成春辉
+linkedIn_username: 
 dribbble_username:
 
-description_footer: 来自Orangelop的小站
+description_footer: 
 
 # 评论
 # two ways to comment, only choose one, and use your own short name
