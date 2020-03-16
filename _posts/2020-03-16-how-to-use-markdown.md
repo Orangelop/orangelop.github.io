@@ -416,9 +416,6 @@ Tips：为了防止转译，前后三个反引号处加了小括号，实际是�
 @Orangelop
 ```
 
-样例(请在github上查看)：  
-@Orangelop
-
 ### EMOJI表情
 
 Github支持的emoji表情可在[这儿](https://www.emoji-cheat-sheet.com/)查看  
@@ -441,7 +438,3 @@ Tips：GFM 在 Issues 中通过 # 和 数字 可以自动链接到对应的 issu
 ```
 #1
 ```
-
-样例（请在github上查看）：
-
-#1
