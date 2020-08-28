@@ -1,0 +1,67 @@
+body {
+	font-size: 16px;
+	color: #111;
+	padding: 0;
+	margin: 0;
+	background: #fffaba;
+	min-width: 320px;
+    font-family: Google Sans Display, Arial, Helvetica, sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.top {
+	width: 100%;
+	height: 46px;
+	background: #FFFFFF;
+	font-size: 20px;
+	line-height: 48px;
+	font-family: 'Google Sans Display';
+	box-shadow: 0 0 8px #000000;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.title {
+	margin-left:15px;
+}
+.top .home a {
+	text-decoration: none;
+}
+.top .home b font {
+    color: #000000;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.top .home a:hover {
+	color: #008b8b;
+}
+body .video-holder {
+	text-align: center;
+}
+.button-cdn {
+	background-color: #ffffff;
+    border: 2px solid #fff27e;
+    color: rgb(68, 68, 68);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	/* 按钮颜色填充动画过渡速度 */
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s; /* Most */
+	/* END */
+}
+.button-cdn:hover {
+	background-color: #fff27e;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.video {
+	background-color: black;
+}
+.no-text-decoration {
+	text-decoration: none;
+}
+.link-colored {
+	color: #00ffdd;
+}
