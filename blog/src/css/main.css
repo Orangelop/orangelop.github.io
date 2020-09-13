@@ -1232,6 +1232,9 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.fit img {
       width: 100%; }
+  .image .head-img {
+    border-radius: 3em;
+  }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
@@ -2268,4 +2271,7 @@ button,
     padding-top: 0; }
 .translator {
   text-decoration:none
+}
+.linear{
+background-image: linear-gradient(127deg, #2188FF 0%, #FB8532 54%, #EA4A5A 100%);
 }
