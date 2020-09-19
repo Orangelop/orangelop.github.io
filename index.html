@@ -1,160 +1,100 @@
----
-layout: default
----
-
-<div class="page clearfix" index>
-    <div class="left">
-        <h1>欢迎来到Orangelop的小站(｡･∀･)ﾉﾞ!</h1>
-        <small>Welcome to Orangelop's Blog(｡･∀･)ﾉﾞ!<small>
-        <hr>
-        <ul>
-            {% for post in paginator.posts %}
-              <li>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-                <div class="label">
-                    <div class="label-card">
-                        <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
-                    </div>
-                    <div class="label-card">
-                        {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
-                        {% endif %}
-                    </div>
-                    <div class="label-card">
-                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
-                    </div>
-
-                    <div class="label-card">
-                    {% include category.html %}
-                    </div>
-
-                    <div class="label-card">
-                    {% include tag.html %}
-                    </div>
-                </div>
-                <div class="excerpt">
-                    {{post.excerpt}}
-                </div>
-                <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>阅读全文</a>
-                </div>
-                <hr>
-              </li>
-            {% endfor %}
-        </ul>
-
-
-
-        <!-- Pagination links -->
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous"><i class="fa fa-angle-left"></i></a>
-          {% else %}
-            <span class="previous disable"><i class="fa fa-angle-double-left"></i></span>
-            <span class="previous disable"><i class="fa fa-angle-left"></i></span>
-          {% endif %}
-          <span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}</span>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-angle-right"></i></a>
-            <a href="{{ site.baseurl }}/page{{ paginator.total_pages }}" class="next"><i class="fa fa-angle-double-right"></i></a>
-          {% else %}
-            <span class="next disable"><i class="fa fa-angle-right"></i></span>
-            <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
-          {% endif %}
-        </div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Orangelop's blog has been temporarily closed</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
+    <link rel="stylesheet" href="./src/highlight/github.min.css">
+    <script src="./src/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div class="content">
+      <h1>博客已关闭，存档请前往<a href="" title="Catalogies">这儿</a>查看</h1>
+      <p class="recent-proj">My recent projects<li><a href="" title="地址没补全呢">Banned Videos</a></li><li><a href="" title="地址还是没有不全嘻嘻">aria2ui</a></li></p>
+      <hr class="footer" size=3 width="100%" color=#5f5f5f>
+      <p>我的博客暂时关站，博客存档请前往<a href="">这儿</a>查看</p>
+      <p>博客的所有代码正在重构（因为不是我写的哈哈哈）(#^.^#，)预计年底开站（拿不准）</p>
+      <p>感谢大家近来的陪伴，有缘再会！！！</p>
+      <p>My blog has been temporarily closed, blog catalogies please visit <a href="">here</a></p>
+      <p>All the code of the blog will be rewritten (#^.^#, ) is expected to open at the end of 2020 (may be not)</p>
+      <p>Thank u, goodbye!</p>
+      <hr class="footer" size=3 width="100%" color=#5f5f5f>
+      <div class="code-highlight">
+        <p>New feature:</p>
+        <li>代码高亮</li>
+        <p>Example01(Java):</p>
+        <pre>
+          <code class="java">
+            @RequestMapping(value = "/menuPrivilege", method = RequestMethod.GET)
+            public void menuPrivilege(@RequestParam(required = false) String code,@RequestParam(required = false) String url) {
+                PrivilegeDTO privilegeDTO = new PrivilegeDTO();
+                if(Strings.isNullOrEmpty(code)){
+                    privilegeDTO.code = "envParas";
+                    privilegeDTO.name = "环境参数管理";
+                    privilegeDTO.urlPath = "/envparams/index";
+                }
+                String basicServer = env.getProperty("basic.server");
+                String menuPath = env.getProperty("basic.upmenu");
+                new StringBuilder().append(basicServer).append(menuPath).toString();//
+                List<PrivilegeDTO> privilegeDTOList = new ArrayList<>();
+            }
+          </code>    
+        </pre>
+        <p>Example02(css):</p>
+        <pre>
+          <code class="css">
+            @font-face {
+              font-family: Chunkfive; src: url('Chunkfive.otf');
+              }
+   
+              body, .usertext {
+              color: #F0F0F0; background: #600;
+              font-family: Chunkfive, sans;
+              }
+   
+              @import url(print.css);
+              @media print {
+              a[href^=http]::after {
+              content: attr(href)
+              }
+              }
+          </code>
+        </pre>
+      </div>
     </div>
-    <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
-    <div class="right">
-        <div class="wrap">
-            <div class="side">
-                <div>
-                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    最近投递
-                </div>
-                <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 10  %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <!-- Content -->
-            <div class="side ">
-                <div>
-                    <i class="fa fa-th-list"></i>
-                    分类
-                </div>
-                <ul class="content-ul" cate>
-                    {% for category in site.categories %}
-                    <li>
-                        <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
-                            <span class="name">
-                                {{ category | first }}
-                            </span>
-                            <span class="badge">{{ category | last | size }}</span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <!-- 其他div框放到这里 -->
-          
-            <div class="side">
-                <div>
-                    <i class="fa fa-tags"></i>
-                    标签
-            </div>
-                <div class="tags-cloud">
-                    {% assign first = site.tags.first %}
-                    {% assign max = first[1].size %}
-                    {% assign min = max %}
-                    {% for tag in site.tags offset:1 %}
-                      {% if tag[1].size > max %}
-                        {% assign max = tag[1].size %}
-                      {% elsif tag[1].size < min %}
-                        {% assign min = tag[1].size %}
-                      {% endif %}
-                    {% endfor %}
-
-                    {% if max == min %}
-                        {% assign diff = 1 %}
-                    {% else %}
-                        {% assign diff = max | minus: min %}
-                    {% endif %}
-
-                    {% for tag in site.tags %}
-                      {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}
-                      {% assign base = temp | divided_by: 4 %}
-                      {% assign remain = temp | modulo: 4 %}
-                      {% if remain == 0 %}
-                        {% assign size = base | plus: 9 %}
-                      {% elsif remain == 1 or remain == 2 %}
-                        {% assign size = base | plus: 9 | append: '.5' %}
-                      {% else %}
-                        {% assign size = base | plus: 10 %}
-                      {% endif %}
-                      {% if remain == 0 or remain == 1 %}
-                        {% assign color = 9 | minus: base %}
-                      {% else %}
-                        {% assign color = 8 | minus: base %}
-                      {% endif %}
-                      <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
-                    {% endfor %}
-                </div>
-            </div>
-
-            <div class="side">
-                <div>
-                    <i class="fa fa-external-link"></i>
-                    友链
-                </div>
-                <ul  class="content-ul">
-                    <li><a href="https://github.com/Orangelop/orangelop.github.io/blob/master/LICENSE">Apache License 2.0</a></li>
-                    <li><a href="https://orangelop.github.io/cxk-ball/index-cxkball.html">CXK打篮球</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="article">
+      <a id="back_top" href="script:;">  
+        <span>Go back to top</span> 
+      </a>
     </div>
-</div>
+    <hr class="footer" size=3 width="100%" color=#5f5f5f>
+    <p>Font: Google Sans Display</p>
+    <p>Prondly powered by Github Pages</p>
+    <img src="src/img-xqjd.jpg" width="200px" height="200px">
+    <script>
+      $(function(){
+        	$(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
+          var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
+          if( scrollt >200 ){  //判断滚动后高度超过200px,就显示  
+          $("#back_top").fadeIn(400); //淡出     
+          }else{      
+            $("#back_top").stop().fadeOut(400); //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动   
+          }
+          });
+          $("#back_top").click(function(){ //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部
+          $("html,body").animate({scrollTop:"0px"},200);
+          });
+          });
+    </script>
+    <script>
+      $(function(){
+          for(var i =0 ;i <100;i++){
+              $("#article").append("<p>test</p>")
+          }
+      })
+    </script>
+</body>
+</html>
