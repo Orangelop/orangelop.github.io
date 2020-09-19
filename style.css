@@ -8,6 +8,7 @@ body {
     margin-right: 100px;
 	font-family: source_sans_proregular, Google Sans Display;
 	background: url(./bkground.svg);
+	background-repeat: no-repeat;
     background-color: #ffcf10;
     font-size: medium;
 }
