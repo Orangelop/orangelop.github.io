@@ -7,10 +7,12 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 	font-family: source_sans_proregular, Google Sans Display;
-	background: url(./bkground.svg);
-	background-repeat: no-repeat;
     background-color: #ffcf10;
     font-size: medium;
+}
+.content {
+	background: url(./bkground.svg);
+	background-size: contain;
 }
 #back_top{ 
 	display:block;  
