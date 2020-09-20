@@ -37,3 +37,11 @@ body {
 #back_top span:hover{ 
 	color:#cccccc; 
 	} 
+a:hover {
+	color: darkorchid;
+	-webkit-transition-duration: 1s; /* Safari */
+	transition-duration: 1s; /* Most */
+}
+a {
+	text-decoration: none
+}
