@@ -6,14 +6,8 @@ pagination:
 description: "A great Jekyll theme developed by Sal @wowthemesnet."
 ---
 
-
 <div class="container">
-    
 {% if page.url == "/" %}
-    
-    
-    
-<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
@@ -128,12 +122,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                     </small>
                 </div>
             </div>
-        
     </div>
-    
 </div>
-    
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+
 {% for post in site.posts %} 
 {% if post.tags contains "sticky" %}
 <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
@@ -153,32 +144,14 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
 </div> 
 {% endif %}
 {% endfor %}
-
-
-    
-
-
-{% endif %} <!--endif page url is / -->
-    
-
-
-<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
-    
+{% endif %}
 <div class="row mt-3">
-   
     <div class="col-md-8 main-loop">
-        
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
-        
-
+        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>   
         {% for post in paginator.posts %}
-        
             {% include main-loop-card.html %}
-        
         {% endfor %}
-        
         <div class="mt-5">
-         <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
             <ul class="pagination"> 
               {% if paginator.previous_page %}
@@ -186,7 +159,6 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
               {% else %}
                 <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
               {% endif %}
-
               {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
                 <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
@@ -196,7 +168,6 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                 <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                 {% endif %}
               {% endfor %}
-
               {% if paginator.next_page %}
                 <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
               {% else %}
@@ -205,15 +176,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
             </ul>
             {% endif %}      
         </div>
-        
     </div>
-    
     <div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
-    
 </div>
-
-
-
 </div>
