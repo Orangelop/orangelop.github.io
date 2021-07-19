@@ -1,102 +1,184 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Orangelop's blog has been temporarily closed</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
-    <script src="https://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
-    <link rel="stylesheet" href="./src/highlight/github.min.css">
-    <script src="./src/highlight/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-      <h1>博客已关闭，存档请前往<a href="https://github.com/Orangelop/orangelop.github.io/tree/master/_cata" title="Catalogies">这儿</a>查看</h1>
-      <div class="content">
-      <p class="recent-proj">My recent projects<li>Banvids: <br><a href="https://orangelop.github.io/banvids" title="地址没补全呢">Website</a></li><li>aria2ui: <br><a href="" title="地址还是没有不全嘻嘻">Repo</a><br><a href="" title="地址还是没有不全嘻嘻">Releases</a></li></p>
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=1403356922&auto=0&height=66"></iframe>
-      <hr class="footer" size=3 width="100%" color=#5f5f5f>
-      <strong><b>更新：</b>新博客目前写好了框架，想看的点<a href="https://orangelop.github.io/blog/">这儿</a></strong>
-      <p>我的博客暂时关站，博客存档请前往<a href="">这儿</a>查看</p>
-      <p>博客的所有代码正在重构（因为不是我写的哈哈哈）(#^.^#，)预计年底开站（拿不准）</p>
-      <p>感谢大家近来的陪伴，有缘再会！！！</p>
-      <p>My blog has been temporarily closed, blog catalogies please visit <a href="">here</a></p>
-      <p>All the code of the blog will be rewritten (#^.^#, ) is expected to open at the end of 2020 (may be not)</p>
-      <p>Thank u, goodbye!</p>
-      <hr class="footer" size=3 width="100%" color=#5f5f5f>
-      <div class="code-highlight">
-        <p>New feature:</p>
-        <li>代码高亮</li>
-        <p>Example01(Java):</p>
-        <pre>
-          <code class="java">
-            @RequestMapping(value = "/menuPrivilege", method = RequestMethod.GET)
-            public void menuPrivilege(@RequestParam(required = false) String code,@RequestParam(required = false) String url) {
-                PrivilegeDTO privilegeDTO = new PrivilegeDTO();
-                if(Strings.isNullOrEmpty(code)){
-                    privilegeDTO.code = "envParas";
-                    privilegeDTO.name = "环境参数管理";
-                    privilegeDTO.urlPath = "/envparams/index";
-                }
-                String basicServer = env.getProperty("basic.server");
-                String menuPath = env.getProperty("basic.upmenu");
-                new StringBuilder().append(basicServer).append(menuPath).toString();//
-                List<PrivilegeDTO> privilegeDTOList = new ArrayList<>();
-            }
-          </code>    
-        </pre>
-        <p>Example02(css):</p>
-        <pre>
-          <code class="css">
-            @font-face {
-              font-family: Chunkfive; src: url('Chunkfive.otf');
-              }
-   
-              body, .usertext {
-              color: #F0F0F0; background: #600;
-              font-family: Chunkfive, sans;
-              }
-   
-              @import url(print.css);
-              @media print {
-              a[href^=http]::after {
-              content: attr(href)
-              }
-              }
-          </code>
-        </pre>
-      </div>
+---
+title: "Mundana Free Jekyll Theme"
+layout: default
+pagination:
+    enabled: true
+description: "A great Jekyll theme developed by Sal @wowthemesnet."
+---
+
+<div class="container">
+{% if page.url == "/" %}
+<div class="row remove-site-content-margin">
+    
+    <!-- latest post -->
+    {% assign latest_post = site.posts[0] %}
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="{{site.baseurl}}{{latest_post.url}}">
+    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+    </h2>
+    <p class="excerpt">
+        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            In <span class="catlist">
+                {% for category in latest_post.categories %}
+                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                {% endfor %}
+                </span>                   
+        </small>
+        <small class="text-muted">
+            {{ latest_post.date | date: '%b %d, %Y' }}
+        </small>
     </div>
-    <div class="article">
-      <a id="back_top" href="script:;">  
-        <span>Go back to top</span> 
-      </a>
     </div>
-    <hr class="footer" size=3 width="100%" color=#5f5f5f>
-    <p>Font: Google Sans Display</p>
-    <p>Prondly powered by Github Pages</p>
-    <img src="src/img-xqjd.jpg" width="200px" height="200px">
-    <script>
-      $(function(){
-        	$(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
-          var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
-          if( scrollt >200 ){  //判断滚动后高度超过200px,就显示  
-          $("#back_top").fadeIn(400); //淡出     
-          }else{      
-            $("#back_top").stop().fadeOut(400); //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动   
-          }
-          });
-          $("#back_top").click(function(){ //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部
-          $("html,body").animate({scrollTop:"0px"},200);
-          });
-          });
-    </script>
-    <script>
-      $(function(){
-          for(var i =0 ;i <100;i++){
-              $("#article").append("<p>test</p>")
-          }
-      })
-    </script>
-</body>
-</html>
+    </div>
+    </div>
+    
+    <div class="col-md-6">
+        
+        <!-- second latest post -->
+        {%- assign second_post = site.posts[1] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if second_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{second_post.url}}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in second_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ second_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- third latest post -->
+        {%- assign third_post = site.posts[2] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if third_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{third_post.url}}">
+                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in third_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ third_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- fourth latest post -->
+        {%- assign fourth_post = site.posts[3] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if fourth_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{fourth_post.url}}">
+                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in fourth_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+    </div>
+</div>
+
+{% for post in site.posts %} 
+{% if post.tags contains "sticky" %}
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3">{{post.title}}</h1>
+                <p class="mb-3 lead">
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                </p>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
+            </div>
+        </div>
+    </div>
+</div> 
+{% endif %}
+{% endfor %}
+{% endif %}
+<div class="row mt-3">
+    <div class="col-md-8 main-loop">
+        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>   
+        {% for post in paginator.posts %}
+            {% include main-loop-card.html %}
+        {% endfor %}
+        <div class="mt-5">
+            {% if paginator.total_pages > 1 %}
+            <ul class="pagination"> 
+              {% if paginator.previous_page %}
+                <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+              {% else %}
+                <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
+              {% endif %}
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
+                {% elsif page == 1 %}
+                <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
+                {% else %}
+                <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                {% endif %}
+              {% endfor %}
+              {% if paginator.next_page %}
+                <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+              {% else %}
+                <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
+              {% endif %}
+            </ul>
+            {% endif %}      
+        </div>
+    </div>
+    <div class="col-md-4">
+        {% include sidebar-featured.html %}    
+    </div>
+</div>
+</div>
