@@ -123,7 +123,4 @@ export XMODIFIERS="@im=fcitx"
 `pacman -S firefox` ///安装Firefox  
 `pacman -S netease-cloud-music` ///安装网易云音乐
 
-这样就算安装完成了  
-可以用了O(∩_∩)O哈哈~  
----Orangelop  
-于2020.03.12
+安装完成！Enjoy~~  
