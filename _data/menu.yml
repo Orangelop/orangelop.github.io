@@ -7,7 +7,11 @@ entries:
       - title: Orangelop's Blog
       - title: github repo
         url: https://github.com/orangelop.github.io
-      - title: "Orangelop's Blog"
+
+  - title: contact me
+    entries:
+      - title: mail to orangelop@qq.com
+        url: mailto://orangelop@qq.com
 
   - title: all posts
     post_list:
@@ -33,6 +37,3 @@ entries:
           - title: with subsubitems
           - title: example page
             url: about
-  - title: contact me
-    entries:
-      - title: "<a href="https://orangelop.github.io">Github</a>"
