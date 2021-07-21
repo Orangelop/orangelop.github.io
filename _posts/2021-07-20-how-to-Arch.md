@@ -1,9 +1,8 @@
 ---
 layout: post
 category: Arch
+tittle: Arch Linux Installation Guide Chinese 2021
 ---
-
-# Arch Linux Installation Guide Chinese 2021
 
 博客重开了，modify 一篇文章试试看。
 Arch Linux官方简体中文文档指路：[Click Here](https://wiki.archlinux.org/index.php/Installation_guide_(简体中文))  
