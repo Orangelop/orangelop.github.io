@@ -3,6 +3,9 @@ layout: post
 category: Jekyll
 tittle: Jekyll blog set up guide
 ---
+## 序言
+
+Jekyll是程序员们常用的博客引擎，它可以实时将markdown渲染为html文件，非常牛逼，现在就看看怎么样在本地搭建测试环境并发布网站
 
 ## 安装ruby
 
@@ -24,11 +27,11 @@ tittle: Jekyll blog set up guide
 
 ## 安装Jekyll和一些插件
 
-输入`gems install jekyll`安装Jekyll  
+输入`gem install jekyll`安装Jekyll  
 
-输入`gems install jekyll-seo-tag`安装（插件）jekyll-seo-tag（SEO优化）  
+输入`gem install jekyll-seo-tag`安装（插件）jekyll-seo-tag（SEO优化）  
 
-输入`gems install jekyll-feed`安装（插件）jekyll-feed（rss）
+输入`gem install jekyll-feed`安装（插件）jekyll-feed（rss）
 
 ## 创建新的博客
 
@@ -40,7 +43,7 @@ tittle: Jekyll blog set up guide
 
 阅读Jekyll官方wiki编写代码添加样式，Jekyll官方wiki：[jekyllrb.com](https://jekyllrb.com/)  
 
-[点此跳转到注意事项](#自己编写博客所要注意的事项)
+[点此跳转到注意事项](#自己编写博客代码时所要注意的事项)
 
 ### 使用jekyllthemes.org主题中的一个来作为你博客的主题
 
@@ -49,7 +52,7 @@ tittle: Jekyll blog set up guide
 *如果你是clone别人的github blog主题，请跳过这一章*  
 
 从[jekyllthemes.org](http://jekyllthemes.org/)中挑选你喜欢的主题，记住主题的名字  
-在终端中输入`gems install "你喜欢的主题的名字，含引号"`[^1]安装主题  
+在终端中输入`gem install "你喜欢的主题的名字，含引号"`[^1]安装主题  
 
 ### 使用Github上大神们编写的Jekyll主题
 
@@ -124,6 +127,6 @@ tittle: Jekyll blog set up guide
 
 ### 添加到Github中并验证
 
-## 自己编写博客代码所要注意的事项
+## 自己编写博客代码时所要注意的事项
 
 [^1]:在本地博客路径下执行
