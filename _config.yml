@@ -1,21 +1,22 @@
-title: Orangelop's Blog
+title: null's blog
 author: Orangelop
 email: orangelop@qq.com
 url: https://orangelop.github.io
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Orangelop's Blog, frontend & backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
+  Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
  
 permalink: /:slug.html
 
-favicon: "favicon.ico" # must be put on the root folder)
+favicon: "favicon.png" # must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+google_analytics_id: 'G-54SGB2GV90'
 
 # theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 # Not to keep update with official ver.
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: "back" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page

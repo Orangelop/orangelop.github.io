@@ -2,38 +2,47 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: Information
     entries:
-      - title: Orangelop's Blog
-      - title: github repo
-        url: https://github.com/orangelop.github.io
+      - title: Github repo of this blog. <a href="https://github.com/Orangelop/orangelop.github.io">click</a>
 
-  - title: contact me
+  - title: Contact me
     entries:
-      - title: mail to orangelop@qq.com
+      - title: "Github: @Orangelop"
+        url: https://github.com/Orangelop
+      - title: "Mail: orangelop@qq.com"
         url: mailto://orangelop@qq.com
+      - title: More...
+        url: about.html#Contacts
 
-  - title: all posts
+  - title: All posts
     post_list:
-      limit: 5
+      limit: 3
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+#  - title: posts by xxxxx
+#    post_list:
+#      category: xxxxx
+#      show_more: true
+#      show_more_text: See more posts...
+#      show_more_url: xxx_archive.html
+# then create a file xxx_archive.md in / dir
 
-  - title: rss
+  - title: null's Podcast
+    url: podcast.html
+
+  - title: Rss Feed
     url: feed.xml
   
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
+  - title: About me
+    url: about
+
+#  - title: another list
+#    entries:
+#      - title: with subitems
+#        entries:
+#          - title: with subsubitems
+#          - title: example page
+#            url: about

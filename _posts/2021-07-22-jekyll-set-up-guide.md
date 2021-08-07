@@ -1,8 +1,9 @@
 ---
 layout: post
 category: Jekyll
-tittle: Jekyll blog set up guide
+tittle: Jekyll set up guide
 ---
+
 ## 序言
 
 Jekyll是程序员们常用的博客引擎，它可以实时将markdown渲染为html文件，非常牛逼，现在就看看怎么样在本地搭建测试环境并发布网站
@@ -76,7 +77,7 @@ Jekyll是程序员们常用的博客引擎，它可以实时将markdown渲染为
 
 创建以`(你的Github用户名，不含括号).github.io`命名的repo（现在也可以直接在repo的Settings中选择使用Github Pages）
 
-#### *方法1（强烈不推荐）：每次写完文章直接把文章commit to master（那你直接不要在本地搭建这个环境了，脱裤子放屁（逃，哈哈哈）*
+#### *方法1（强烈不推荐）：每次写完文章直接把文章commit to master（那你直接不要在本地搭建这个环境了，脱裤子放屁（逃*
 
 #### 方法2：下载Github Desktop或使用git来实时更新至github pages
 
@@ -98,13 +99,9 @@ Jekyll是程序员们常用的博客引擎，它可以实时将markdown渲染为
 
 从[code.visualstudio.com](https://code.visualstudio.com/)下载Visual Studio Code安装，写文章更加舒服，也可以使用其他编辑器如Sublime  
 
-配置完后写完文章请`git commit -a`[^1]打开编辑器后填入summary关闭推送所有更改，也可以选择性推送更改  
+配置完后写完文章请`git commit -a`[^1]打开编辑器后填入summary关闭，推送所有更改；也可以选择性推送更改  
 
 输入`git push`提交更改  
-
-### 使用glitch.me
-
-*不知道该怎么办（逃*
 
 ### 直接在服务器上执行此教程
 

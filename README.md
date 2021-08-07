@@ -1,6 +1,6 @@
 # Orangelop's Blog
 
-My personal blog |ू･ω･` ) is here.  
+My personal blog serves here |ू･ω･` ).  
 
 Contact me:  
 *Bilibili:*  

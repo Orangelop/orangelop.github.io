@@ -1,19 +1,30 @@
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+﻿<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>
-    {%- if page.title -%}
-      {{ page.title }}
-    {%- else -%}
-      {{ site.title }}
-    {%- endif -%}
-  </title>
+    <title>
+        {%- if page.title -%}
+        {{ page.title }}
+        {%- else -%}
+        {{ site.title }}
+        {%- endif -%}
+    </title>
 
-  {%-seo title=false-%}
-  {%-feed_meta-%}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+        gtag('config', '{{ site.google_analytics_id }}');
+    </script>
+
+    {%-seo title=false-%}
+    {%-feed_meta-%}
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+    <link rel="">
 </head>
