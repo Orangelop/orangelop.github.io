@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font-family: Consolas, 宋体, 微软雅黑;
+}
+
+.betaing {
+	font-style: italic;
+	font-size: large;
+}
+
+p {
+    font-size: 18px;
+}
+
+.top-bold {
+    color: #000000;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.top {
+	width: 100%;
+	background: #FFFFFF;
+	font-size: 20px;
+	line-height: 48px;
+    text-align: left;
+	box-shadow: 0 0 8px #000000;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cookie {
+	background-color: #000000;
+	color: #FFFFFF;
+	position: absolute;
+	
+}

@@ -13,7 +13,7 @@ entries:
       - title: "Mail: orangelop@qq.com"
         url: mailto://orangelop@qq.com
       - title: More...
-        url: about.html#Contacts
+        url: "about.html#Contacts"
 
   - title: All posts
     post_list:
@@ -28,16 +28,26 @@ entries:
 #      show_more: true
 #      show_more_text: See more posts...
 #      show_more_url: xxx_archive.html
-# then create a file xxx_archive.md in / dir
+#  then create a file xxx_archive.md in / dir
+  - title: My projects
+    entries: 
+      - title: MD5 Calculator
+        entries:
+          - title: repo of this calculator
+            url: https://github.com/Orangelop/md5-calculator
+          - title: calculator served at gh-pages
+            url: md5-calculator
+          - title: calculator served at glitch.me
+            url: https://md5-calculator.glitch.me
 
   - title: null's Podcast
-    url: podcast.html
-
-  - title: Rss Feed
-    url: feed.xml
+    url: podcast
   
   - title: About me
     url: about
+
+  - title: <i class="fas fa-rss-square"></i>Rss Feed
+    url: feed.xml
 
 #  - title: another list
 #    entries:
