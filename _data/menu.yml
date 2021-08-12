@@ -34,11 +34,11 @@ entries:
       - title: MD5 Calculator
         entries:
           - title: repo of this calculator
-            url: https://github.com/Orangelop/md5-calculator
+            url: https://orangelop.github.io/md5-calculator
           - title: calculator served at gh-pages
             url: md5-calculator
           - title: calculator served at glitch.me
-            url: https://md5-calculator.glitch.me
+            url: https://md5calculator.glitch.me
 
   - title: null's Podcast
     url: podcast
