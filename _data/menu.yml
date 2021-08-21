@@ -29,7 +29,7 @@ entries:
 #      show_more_text: See more posts...
 #      show_more_url: xxx_archive.html
 #  then create a file xxx_archive.md in / dir
-  - title: My projects
+  - title: <i class="fas fa-project-diagram"></i>My projects
     entries: 
       - title: MD5 Calculator
         entries:
