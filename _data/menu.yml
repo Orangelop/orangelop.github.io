@@ -2,24 +2,24 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Information
+  - title: <i class="fas fa-info-circle"></i>Information
     entries:
-      - title: Github repo of this blog. <a href="https://github.com/Orangelop/orangelop.github.io">click</a>
+      - title: <i class="fas fa-code-branch"></i>Github repo of this blog. <a href="https://github.com/Orangelop/orangelop.github.io">click</a>
 
-  - title: Contact me
+  - title: <i class="far fa-address-card"></i>Contact me
     entries:
-      - title: "Github: @Orangelop"
+      - title: <i class="fab fa-github"></i>@Orangelop
         url: https://github.com/Orangelop
-      - title: "Mail: orangelop@qq.com"
+      - title: <i class="far fa-envelope"></i>orangelop@qq.com
         url: mailto://orangelop@qq.com
       - title: More...
         url: "about.html#Contacts"
 
-  - title: All posts
+  - title: <i class="fas fa-sticky-note"></i>All posts
     post_list:
       limit: 3
       show_more: true
-      show_more_text: See archive...
+      show_more_text: <i class="fas fa-newspaper"></i>See archive...
       show_more_url: archive.html
 
 #  - title: posts by xxxxx
@@ -31,7 +31,7 @@ entries:
 #  then create a file xxx_archive.md in / dir
   - title: <i class="fas fa-project-diagram"></i>My projects
     entries: 
-      - title: MD5 Calculator
+      - title: <i class="fas fa-calculator"></i>MD5 Calculator
         entries:
           - title: repo of this calculator
             url: https://orangelop.github.io/md5-calculator
@@ -40,10 +40,10 @@ entries:
           - title: calculator served at glitch.me
             url: https://md5calculator.glitch.me
 
-  - title: null's Podcast
+  - title: <i class="fas fa-podcast"></i>null's Podcast
     url: podcast
   
-  - title: About me
+  - title: <i class="far fa-address-card"></i>About me
     url: about
 
   - title: <i class="fas fa-rss-square"></i>Rss Feed
