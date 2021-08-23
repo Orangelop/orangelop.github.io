@@ -13,15 +13,16 @@ title: About
 
 ## Donate me
 
-![donation](./donation.png)
+![donation "donate"](./donation.png)
 
 ## Contacts
 
-- Github: [@Orangelop](https://github.com/Orangelop)  
-- Mail: [orangelop@qq.com](mailto://orangelop@qq.com)  
-- Mail: [orangelop@yeah.net](mailto://orangelop@yeah.net)  
-- Telegram: [@Orangelop](https://t.me/orangelop)  
-- Reddit: [@Orangelop](https://www.reddit.com/user/Orangelop)  
-- Twitch: [@orangelop](https://www.twitch.tv/orangelop)  
-- Instergram: [@orangelop_wuye](https://www.instagram.com/orangelop_wuye/)  
-- Twitter: [@orangelop_](https://twitter.com/orangelop_)  
+<i class="fab fa-github"></i> Github: [@Orangelop](https://github.com/Orangelop)  
+<i class="fas fa-envelope"></i> Mail: [orangelop@qq.com](mailto://orangelop@qq.com)  
+<i class="fas fa-envelope"></i> Mail: [orangelop@yeah.net](mailto://orangelop@yeah.net)  
+<i class="fab fa-telegram"></i> Telegram: [@Orangelop](https://t.me/orangelop)  
+<i class="fab fa-reddit"></i> Reddit: [@Orangelop](https://www.reddit.com/user/Orangelop)  
+<i class="fab fa-twitter"></i> Twitter: [@orangelop_](https://twitter.com/orangelop_)  
+<i class="fab fa-twitch"></i> Twitch: [@orangelop](https://www.twitch.tv/orangelop)  
+<i class="fab fa-instagram"></i> Instergram: [@orangelop_wuye](https://www.instagram.com/orangelop_wuye/)  
+
