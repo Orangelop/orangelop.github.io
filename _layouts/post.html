@@ -1,15 +1,20 @@
 ---
 layout: default
+disqus_comments_shortname: true
 ---
 
 {%-include back_link.html-%}
 
 <article>
   <p class="post-meta">
-    <!--Calendar icon-->
+    <!-- Calendar icon -->
     <i class="fas fa-calendar-alt"></i>
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
   </p>
 
   {{ content }}
 </article>
+
+<!-- Disqus Comments init -->
+<h2>Comments</h2>
+{%-include disqus_comments.html-%}

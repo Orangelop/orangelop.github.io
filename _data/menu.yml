@@ -15,8 +15,8 @@ entries:
 #          url: 
 
 
-  - title: <i class="fas fa-search"></i> Search for posts
-  
+  - title: <form><i class="fas fa-search"></i> Search content <input type="text" class="st-default-search-input" /></form>
+
   - title: <i class="fas fa-file-alt"></i> All posts
     post_list:
       limit: 3

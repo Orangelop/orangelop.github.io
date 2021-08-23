@@ -21,6 +21,13 @@ theme_config:
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
 
+disqus_comments_shortname: 'orangelop-blog' 
+# Enter your Disqus comment shortname
+
+swiftype_token: '17ycDsiUdNJQMsRG8VpE'
+swiftype_version: '2.0.0'
+# Enter your Swifttype key
+
 sass:
   style: :compressed
 
