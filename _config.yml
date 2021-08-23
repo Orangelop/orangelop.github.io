@@ -17,7 +17,7 @@ google_analytics_id: 'G-54SGB2GV90'
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
-  back_home_text: "back" # customize text for homepage link in post layout
+  back_home_text: Back # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
 

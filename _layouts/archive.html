@@ -2,8 +2,29 @@
 layout: default
 ---
 
+<!-- Back button -->
 {%-include back_link.html-%}
 
 <h1>{{ page.title }}</h1>
 
 {%-include post_list.html category=page.which_category-%}
+
+<!-- 暂时弃用 2021-08-23 BEGIN
+
+注释：Capture posts' year
+{% for post in site.posts %}
+{% unless post %}
+{% else %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% if year != nyear %}
+<h1>{{ post.date | date: '%Y' }}</h1>
+{% endif %}
+{% endunless %}
+注释：Show articles' title
+<ul>
+    <li>{{ post.date | date: site.theme_config.date_format }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+</ul>
+{% endfor %}
+
+ 暂时弃用 2021-08-23 END -->

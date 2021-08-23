@@ -8,6 +8,7 @@ title: About
 
 ## Introduce myself
 
+<i class="fas fa-download"></i> <i class="fas fa-file-powerpoint"></i>
 [Introduction .pptx download](./introduction.pptx)
 
 ## Donate me

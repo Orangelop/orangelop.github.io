@@ -8,6 +8,10 @@
   }
 }
 
+a {
+  text-decoration:none;
+}
+
 body[a="dark"] { @include dark-appearance; }
 
 

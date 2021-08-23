@@ -2,25 +2,28 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: <i class="fas fa-info-circle"></i>Information
+  - title: <i class="fas fa-info-circle"></i> Information
     entries:
-      - title: <i class="fas fa-code-branch"></i>Github repo of this blog. <a href="https://github.com/Orangelop/orangelop.github.io">click</a>
+      - title: <i class="fas fa-code-branch"></i> Github repo of this blog. <a href="https://github.com/Orangelop/orangelop.github.io"><i class="fas fa-external-link-alt"></i></a>
+      - title: <i class="fas fa-address-book"></i> Contact & About me
+        entries:
+         - title: <i class="fab fa-github"></i> @Orangelop <a href="https://github.com/Orangelop"><i class="fas fa-external-link-alt"></i></a>
+         - title: <i class="fas fa-envelope"></i> orangelop@qq.com <a href="mailto://orangelop@qq.com"><i class="fas fa-external-link-alt"></i></a>
+         - title: <i class="fas fa-address-book"></i> <a href="about">About me</a>
+#          url: 
+         - title: More...
+           url: about.html
 
-  - title: <i class="far fa-address-card"></i>Contact me
-    entries:
-      - title: <i class="fab fa-github"></i>@Orangelop
-        url: https://github.com/Orangelop
-      - title: <i class="far fa-envelope"></i>orangelop@qq.com
-        url: mailto://orangelop@qq.com
-      - title: More...
-        url: "about.html#Contacts"
 
-  - title: <i class="fas fa-sticky-note"></i>All posts
+  - title: <i class="fas fa-search"></i> Search for posts
+  
+  - title: <i class="fas fa-file-alt"></i> All posts
     post_list:
       limit: 3
-      show_more: true
-      show_more_text: <i class="fas fa-newspaper"></i>See archive...
-      show_more_url: archive.html
+    entries:
+      - title: <i class="fas fa-archive"></i> <a href="archive.html">See archive...</a>
+#     show_more_text: 
+#     show_more_url: archive.html
 
 #  - title: posts by xxxxx
 #    post_list:
@@ -29,25 +32,24 @@ entries:
 #      show_more_text: See more posts...
 #      show_more_url: xxx_archive.html
 #  then create a file xxx_archive.md in / dir
-  - title: <i class="fas fa-project-diagram"></i>My projects
+
+  - title: <i class="fas fa-code"></i> Projects of mine
     entries: 
-      - title: <i class="fas fa-calculator"></i>MD5 Calculator
+      - title: <i class="fas fa-calculator"></i> MD5 Calculator
         entries:
-          - title: repo of this calculator
-            url: https://orangelop.github.io/md5-calculator
-          - title: calculator served at gh-pages
-            url: md5-calculator
-          - title: calculator served at glitch.me
-            url: https://md5calculator.glitch.me
+          - tiele: <i class="fas fa-info-circle"></i> Introduction <a href=""></a>
+          - title: <i class="fab fa-github"></i> Repo on Github <a href="https://orangelop.github.io/md5-calculator"><i class="fas fa-external-link-alt"></i></a>
+          - title: <i class="fas fa-server"></i> Demo served at gh-pages <a href="md5-calculator"><i class="fas fa-external-link-alt"></i></a>
+          - title: <i class="fas fa-server"></i> calculator served at glitch.me <a href="https://md5calculator.glitch.me"><i class="fas fa-external-link-alt"></i></a>
 
-  - title: <i class="fas fa-podcast"></i>null's Podcast
-    url: podcast
-  
-  - title: <i class="far fa-address-card"></i>About me
-    url: about
+  - title: <i class="fas fa-podcast"></i> <a href="podcast">null's Podcast</a>
+#   url: podcast 
+#   we dont use this way bkz it changes icon's color
 
-  - title: <i class="fas fa-rss-square"></i>Rss Feed
-    url: feed.xml
+  - title: <i class="fas fa-rss-square"></i> <a href="feed.xml">Rss Feed</a>
+#   url: 
+
+  - title: <i class="fas fa-ad"></i> Advertisements
 
 #  - title: another list
 #    entries:
