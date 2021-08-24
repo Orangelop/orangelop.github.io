@@ -29,6 +29,7 @@
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/844b82f734.js" crossorigin="anonymous"></script>
 
+    {% if site.google_analytics_id %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
     <script>
@@ -38,11 +39,12 @@
 
         gtag('config', '{{ site.google_analytics_id }}');
     </script>
+    {% endif %}
 
     {%-seo title=false-%}
     {%-feed_meta-%}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
-    <link rel="">
+    <script src="/assets/js/main.js"></script>
 </head>

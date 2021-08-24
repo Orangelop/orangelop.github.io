@@ -16,5 +16,4 @@ plugins:
  - jemoji
 ```
 
-write `:emoji:` in .md posts to test!
-:+1:  
+write `:emoji:` in .md posts to test:+1: :smile:!

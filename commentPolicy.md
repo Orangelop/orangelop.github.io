@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: commentPolicy
 title: Comment Policy
 ---

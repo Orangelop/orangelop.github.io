@@ -10,7 +10,14 @@ layout: default
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
 
+<!-- Sidebar -->
+
+
+
 <!-- Swifttype Search Engine init-->
-{%-include swiftype.html -%}
+{%-include swiftype.html-%}
+
+<!-- Back to top -->
+{% include backToTop.html %}
 
 {{ content }}

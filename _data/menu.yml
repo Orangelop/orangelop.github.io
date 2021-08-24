@@ -50,6 +50,7 @@ entries:
 
   - title: <i class="fas fa-rss-square"></i> <a href="feed.xml">Rss Feed</a>
 #   url: 
+  - title: <i class="fas fa-map-signs"></i> <a href="sitemap.xml">Sitemap</a>
 
   - title: <i class="fas fa-ad"></i> Advertisements
 

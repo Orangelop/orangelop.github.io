@@ -8,12 +8,8 @@ description: > # description of the site (multiple lines allowed)
  
 permalink: /:slug.html
 
-favicon: "favicon.png" # must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+favicon: "favicon.png" # must be put on the root folder
 google_analytics_id: 'G-54SGB2GV90'
-
-# theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
-# Not to keep update with official ver.
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
@@ -29,8 +25,10 @@ swiftype_version: '2.0.0'
 # Enter your Swifttype key
 
 sass:
-  style: :compressed
+  style: compressed
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jemoji
+  - jekyll-sitemap
