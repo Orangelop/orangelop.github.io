@@ -1,14 +1,16 @@
 header {
-    background: #00A3FF;
+    // background: #00A3FF;
+    background: #01617D;
     height: 52px;
     // color: #00FFFF;
-    color: #000000; // 字体颜色
-    // box-shadow: 0 1px 2px 0.5px rgba(255, 255, 255, 0.5);
+    color: #fff; // 字体颜色
+    // box-shadow: 0 1px 2px 0.5px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     a {
-        color: #000000;
-        -webkit-transition: 0.2s ease;
-        transition: 0.2s ease;
+        color: #fff;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+        border-radius: 8px;
         &:hover {
             color: #fff;
         }
@@ -23,6 +25,7 @@ header {
         small {
             margin-left: 26px;
             font-size: 14px;
+            text-decoration: underline;
         }
         .menu{
             display: none;
@@ -37,8 +40,8 @@ header {
                     list-style: none;
                     font-size: 14px;
                     display: inline-block;
-                    -webkit-transition: 0.2s ease;
-                    transition: 0.2s ease;
+                    -webkit-transition: 0.5s ease;
+                    transition: 0.5s ease;
                     a {
                         display: inline-block;
                         padding: 0 10px;
@@ -51,10 +54,9 @@ header {
                         }
                     }
                     >.active {
-                        color: rgb(255, 253, 253);// 当前活动框字体颜色
-                        background-color: #00242F;
-                        // background-color: #1E1E1E;
-                        box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
+                        color: #fff;// 当前活动框字体颜色
+                        background-color: #1E1E1E;
+                        box-shadow: 0 15px 15px -15px rgba(255,255,255,0.93);// 活动框光影
                     }
                 }
             }
