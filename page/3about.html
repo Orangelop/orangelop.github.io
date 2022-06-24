@@ -1,0 +1,52 @@
+---
+layout: default
+title: About
+permalink: /about/
+icon: info-circle
+type: page
+---
+
+<div class="page clearfix">
+    <div class="left">
+        <h1><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{page.title}}</h1>
+        <hr>
+        <h2 id="Inroduction">Introduction 介绍</h2>
+        <hr>
+        <h2 id="Contact.Me">Contact Me 联系我</h2>
+        <ul>哔哩哔哩: <a href="https://space.bilibili.com/54818676">@Orangelop</a></ul>
+        <ul>知乎: <a href="https://www.zhihu.com/people/Orangelop">@Orangelop</a></ul>
+        <ul>爱发电: <a href="https://www.afdian.net/@Orangelop">@Orangelop</a></ul>
+        <ul><i class="fa fa-github"></i> Github: <a href="https://github.com/Orangelop">@Orangelop</a></ul>
+        <ul><i class="fa fa-telegram"></i> Telegram: <a href="https://t.me/orangelop">@Orangelop</a></ul>
+        <ul><i class="fa fa-reddit"></i> Reddit: <a href="https://www.reddit.com/user/Orangelop">@Orangelop</a></ul>
+        <ul><i class="fa fa-twitter"></i> Twitter: <a href="https://twitter.com/orangelop_">@orangelop_</a></ul>
+        <ul><i class="fa fa-twitch"></i> Twitch: <a href="https://www.twitch.tv/orangelop">@orangelop</a></ul>
+        <ul><i class="fa fa-instagram"></i> Instergram: <a href="https://www.instagram.com/orangelop_wuye/">@orangelop_wuye</a></ul>
+        <ul><i class="fa fa-envelope"></i> Mail: <a href="mailto://orangelop@qq.com">orangelop@qq.com</a></ul>
+        <ul><i class="fa fa-envelope"></i> Mail: <a href="mailto://orangelop@yeah.net">orangelop@yeah.net</a></ul>
+        <hr> 
+        <h2 id="#Donation.Methods">Donation Methods 赞助方式</h2>
+        <img src="../assets/donation.png">
+        <hr>
+        <h2 id="Comments">Comments 评论</h2>
+        {% include disqus_comments.html %}
+    </div>
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+            <!-- Content -->
+            <div class="side content">
+                <div><i class="fa fa-th-list" aria-hidden="true"></i> List</div>
+                <ul id="content-side" class="content-ul" style="max-height: 488px;">
+                    <li><a href="#Introduction" id="Introduction" data-scroll="">Introduction 介绍</a></li>
+                    <li><a href="#Contact.Me" id="Contact.Me" data-scroll="">Contact Me 联系我</a></li>
+                    <li><a href="#Donation.Methods" id="Donation.Methods" data-scroll="">Donation Methods 赞助方式</a></li>
+                    <li><a href="#Comments" id="Comments" data-scroll="">Comments 评论</a></li>
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <!-- Go back 回退 -->
+            {% include go_back.html %}
+        </div>
+    </div>
+</div>

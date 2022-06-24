@@ -1,0 +1,23 @@
+<footer class="site-footer">
+    <div class="wrapper">
+        <p class="description"> {% if site.description_footer %} {{site.description_footer}} {% endif %}</p><br />
+        <p class="contact">
+            You can find me on {% if site.github_username %}
+            <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+            {% endif %} 
+            {% if site.telegram_username %}
+            <a href="https://t.me/{{site.telegram_username}}" title="Telegram"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if site.email %}
+            <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            {% endif %}
+        </p><br />
+        <p class="power">
+            <span>This site uses Jekyll & Github Pages. Click here to view <a href="/commentPolicy">Comment Policy</a></span><br />
+            <span>Theme modified by <a href="https://github.com/Orangelop">Orangelop</a></span>
+        </p>
+    </div>
+</footer>
