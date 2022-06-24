@@ -5,7 +5,7 @@ icon: home
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{ site.welcome }}</h1>
+        <h1 class="welcome"><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{ site.welcome }}</h1>
         <small>{{ site.small_introduction }}<small>
         <hr>
         <ul>
@@ -22,9 +22,13 @@ icon: home
                         {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
                         {% endif %}
                     </div>
+                    
+                    <!-- 不知道是什么 -->
                     <div class="label-card">
-                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
+                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}
+                        {% endif %}
                     </div>
+
                     <div class="label-card">
                     {% include category.html %}
                     </div>

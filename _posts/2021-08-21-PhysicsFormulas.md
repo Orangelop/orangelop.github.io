@@ -4,6 +4,7 @@ title: "Physics Formulas"
 date:   2021-08-21 9:55:54
 categories: Physics
 tags: Physics formula
+author: Orangelop aka. null.
 excerpt: Physics Formulas
 ---
 

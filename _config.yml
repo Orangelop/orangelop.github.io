@@ -30,9 +30,9 @@ kramdown:
 # port
 # port: 1234
 
-# url
+# category/tgs 地址
 category_dir: category/
-tag_dir: tag/
+tag_dir: tags/
 
 # excerpt
 excerpt_separator: "\n\n\n\n"
