@@ -1,11 +1,12 @@
 header {
-    background: #222;
+    background: #00A3FF;
     height: 52px;
-    color: #00FFFF;
-    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
+    // color: #00FFFF;
+    color: #000000; // 字体颜色
+    // box-shadow: 0 1px 2px 0.5px rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
     a {
-        color: #9d9d9d;
+        color: #000000;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
         &:hover {
@@ -43,15 +44,16 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #000;
+                            background-color: #1E1E1E;// 选中框背景颜色
                         }
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #fff;
-                        background-color: #000;
+                        color: rgb(255, 253, 253);// 当前活动框字体颜色
+                        background-color: #00242F;
+                        // background-color: #1E1E1E;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
