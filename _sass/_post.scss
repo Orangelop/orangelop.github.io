@@ -26,6 +26,9 @@
             background-color: #f4efeb;
         }
     }
+    .main {
+        margin-top: 20px;
+    }
     .left {
         ul {
             >h2 {
@@ -59,6 +62,11 @@
         // }
     }
 }
+
+.right-post {
+    margin-top: -120px;
+}
+
 @media screen and (max-width: 770px) {
     .page[post] {
         .left {

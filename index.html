@@ -6,8 +6,9 @@ icon: home
 <div class="page clearfix" index>
     <div class="left">
         <h1 class="welcome"><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{ site.welcome }}</h1>
-        <small>{{ site.small_introduction }}<small>
-        <hr>
+        <small>{{ site.small_introduction }}</small>
+    </div>
+    <div class="left main">
         <ul>
             {% for post in paginator.posts %}
               <li>
@@ -131,11 +132,11 @@ icon: home
             <div class="side">
                 <div><i class="fa fa-external-link"></i> Links</div>
                 <ul class="content-ul" recent>
-                    <li><a href="https://github.com/Orangelop/orangelop.github.io/blob/master/LICENSE">test01</a></li>
+                    <li><a href="https://github.com/Orangelop/orangelop.github.io/">Repository of my blog</a></li>
                     <li><a href="https://orangelop.github.io/cxk-ball/index-cxkball.html">test01</a></li>
                 </ul>
             </div>
-            <div class="side">
+            <div class="side rss">
               <div><i class="fa fa-rss" aria-hidden="true"></i> RSS <a href="/feed.xml"><small>Click here...</small></a></div>
             </div>
         </div>

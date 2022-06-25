@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Cracks
-permalink: /crack/
-icon: wrench
+title: Projects
+permalink: /projects/
+icon: code
 type: page
 ---
 

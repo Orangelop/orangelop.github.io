@@ -6,6 +6,9 @@
       color: #002530;
     }
   }
+  .main {
+    margin-top: 20px;
+  }
   .left {
     .welcome  {
       font-weight: bold;
@@ -29,6 +32,7 @@
         .label {
           margin-bottom: 15px;
           overflow: hidden;
+          font-size: 13px;
           .label-card {
             float: left;
             margin-right: 15px;
@@ -82,6 +86,7 @@
     }
   }
   .right {
+    margin-top: -105px;
     .wrap {
       .side {
         margin-bottom: 20px;
@@ -103,9 +108,10 @@
               border-bottom: 1px solid #dbdbdb;
               &:hover {
                 background-color: #dbdfee;
+                border-radius: 10px;
                 .badge {
                   background-color: #dbdfee;
-                  transform: scale(1.2) rotate(360deg);
+                  // transform: scale(1.2) rotate(360deg);
                 }
               }
               .name {
@@ -120,9 +126,9 @@
                 margin-top: 3px;
                 padding: 0 10px;
                 font-size: 12px;
-                color: #fff;
-                background-color: #a1cdff;
-                border-radius: 50%;
+                color: #000000;
+                background-color: #00f8a5;
+                border-radius: 35%;
                 transition: 0.5s ease-in-out;
               }
             }

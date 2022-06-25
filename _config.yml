@@ -2,7 +2,7 @@
 title: Orangelop Blog
 brief-intro: 我们的征途是星辰大海
 small_introduction: Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
-welcome: Welcome to Orangelop's Blog(｡･∀･)ﾉﾞ!
+welcome: Welcome to Orangelop's Blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://orangelop.github.io" # the base hostname & protocol for your site
 
