@@ -4,37 +4,27 @@ layout: default
 
 <div class="page clearfix" post>
     <div class="left">
-        <h1>{{page.title}}</h1>
+        <h1><i class="fa fa-file-text-o" aria-hidden="true"></i> {{page.title}}</h1>
         <div class="label">
-
             <div class="label-card">
-                <i class="fa fa-calendar"></i>{{ page.date | date: "%F" }}
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>{{ page.date | date: "%F" }}
             </div>
-
             <div class="label-card">
                 {% if page.author %}<i class="fa fa-user"></i>{{ page.author }}
                 {% endif %}
             </div>
-
-            <div class="label-card">
-                {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
-            </div>
-
             <div class="label-card">
             {% include category.html %}
             </div>
-
             <div class="label-card">
             {% include tag.html %}
             </div>
-
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
         <hr>
-
         {% assign hasSimilar = '' %}
         {% for post in site.related_posts %}
             {% assign postHasSimilar = false %}
@@ -61,23 +51,16 @@ layout: default
         {% if hasSimilar.size > 0 %}
             </ul>
         {% endif %}
-
         {% include previousAndNext.html %}
-
+        <hr />
+        <h1>Comments</h1>
+        {% include disqus_comments.html %}
     </div>
     <button class="anchor"><i class="fa fa-comments"></i></button>
-    <div class="left">
-        <div class="wrap">
-            <div>Comments</div>
-            {% include disqus_comments.html %}
-        </div>
-    </div>
 
-     
     <button class="anchor"><i class="fa fa-anchor"></i></button>
     <div class="right">
         <div class="wrap">
-
             <!-- Content -->
             <div class="side content">
                 <div><i class="fa fa-th-list"></i> List</div>

@@ -16,19 +16,12 @@ icon: home
                 </h2>
                 <div class="label">
                     <div class="label-card">
-                        <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
+                      <i class="fa fa-calendar-o" aria-hidden="true"></i>{{ post.date | date: "%F" }}
                     </div>
                     <div class="label-card">
                         {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
                         {% endif %}
                     </div>
-                    
-                    <!-- 不知道是什么 -->
-                    <div class="label-card">
-                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}
-                        {% endif %}
-                    </div>
-
                     <div class="label-card">
                     {% include category.html %}
                     </div>
@@ -40,7 +33,7 @@ icon: home
                     {{post.excerpt}}
                 </div>
                 <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read full...</a>
+                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-external-link-square" aria-hidden="true"></i>Read all...</a>
                 </div>
                 <hr>
               </li>
@@ -141,6 +134,9 @@ icon: home
                     <li><a href="https://github.com/Orangelop/orangelop.github.io/blob/master/LICENSE">test01</a></li>
                     <li><a href="https://orangelop.github.io/cxk-ball/index-cxkball.html">test01</a></li>
                 </ul>
+            </div>
+            <div class="side">
+              <div><i class="fa fa-rss" aria-hidden="true"></i> RSS <a href="/feed.xml"><small>Click here...</small></a></div>
             </div>
         </div>
     </div>

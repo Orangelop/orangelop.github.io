@@ -35,53 +35,57 @@
             }
             li {
                 line-height: 1.8;
-                color: #888888;
+                color: #333;
                 time {
                     display: inline-block;
                     width: 135px;
+                    margin-left: 3px;
                 }
                 .title {
                     font-weight: bold;
-                    color: #223253;
+                    color: #333;
                     transition: 0.3s ease;
                     &:hover {
                         color: #4d6dad;
                     }
+                    margin-left: 3px;
                 }
                 i {
-                    margin-right: 5px;
+                    margin-right: 3px;
                 }
                 .categories {
-                    padding: 0 15px;
+                    // padding: 0 15px;
                     i {
-                        color: #9e9d9d;
+                        // color: #000000;
+                        color: #333;
                     }
                     a {
                         padding: 0 5px;
-                        background-color: #9e9d9d;
+                        background-color: #c300ff;
+                        border-radius: 5px;
                         color: #fff;
                         font-size: 90%;
                         transition: 0.3s ease;
                         &:hover {
-                            background-color: #b6b6b9;
+                            background-color: #1e1e1e;
                         }
                     }
                 }
                 .pageTag {
                     i {
-                        color: #c6cbe9;
+                        // color: #000000;
+                        color: #333;
                     }
                     a {
-
                         // border: 1px solid #aaa;
                         padding: 0 5px;
-                        background-color: #c6cbe9;
-                        border-radius: 4px;
+                        background-color: #687fff;
+                        border-radius: 5px;
                         color: #fff;
                         font-size: 90%;
                         transition: 0.3s ease;
                         &:hover {
-                            background-color: #c0ddc7;
+                            background-color: #1e1e1e;
                         }
                     }
                 }
@@ -123,7 +127,7 @@
             >div {
                 padding: 12px 15px;
                 margin-right: -10px;
-                border-bottom: 1px solid #c0c0c0;
+                border-bottom: 1px solid #cfcfcf;
                 font-size: 16px;
                 font-weight: bold;
             }
