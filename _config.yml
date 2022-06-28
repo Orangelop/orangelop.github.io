@@ -18,7 +18,8 @@ email: orangelop@qq.com
 description_footer: 我们的征途是星辰大海
 
 # 评论
-disqus_comments_shortname: orangelop-blog
+disqus_comments_shortname:
+# orangelop-blog
 google_analytics_id: G-54SGB2GV90
 
 # Build settings

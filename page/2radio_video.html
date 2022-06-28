@@ -1,0 +1,41 @@
+---
+layout: default
+title: Radio & Video
+permalink: /radio_video/
+icon: podcast
+type: page
+---
+
+<div class="page clearfix">
+    <div class="left">
+        <h1><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{page.title}}</h1>
+        <h2 id="Podcast">null.'s Podcast</h2>
+        <h3>Scheduled Releases (Now - 2023.05)</h3>
+        <img src="../assets/nullsPodcast20220628.jpg">
+        <h3>Websites: <button class="btnMedium buttonPurple" onclick="javascript:window.location.href='https://github.com/Orangelop'"><i class="fa fa-podcast" aria-hidden="true"></i> null.'s Podcast</button></h3>
+        <hr>
+        <h2 id="Videos">Videos</h2>
+        <h3>Scheduled Videos (会有变动)</h3>
+        <img src="../assets/videoSchedule20220628.jpg">
+        <h3>Channels: 
+            <button class="btnMedium buttonOrange" onclick="javascript:window.location.href='https://space.bilibili.com/54818676'"> 哔哩哔哩: @Orangelop</button>
+            <button class="btnMedium buttonRed" onclick="javascript:window.location.href='https://www.youtube.com/channel/UCQp87Pa5nKeW2CChsIgbOeg'"> <i class="fa fa-youtube-play" aria-hidden="true"></i> @Orangelop</button>
+        </h3>
+    </div>
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+            <!-- Content -->
+            <div class="side content music-list">
+                <div><i class="fa fa-music" aria-hidden="true"></i> Liked songs</div>
+                <ul>
+                    <button class="btnMedium buttonRed" onclick="javascript:window.location.href='https://music.163.com/#/playlist?id=883922012'">网易云</button>
+                    <button class="btnMedium buttonGreen" onclick="javascript:window.location.href='https://open.spotify.com/playlist/4HytsVXvmwYuWYYhEQZ3I9?si=cada4f6b27474c40'"><i class="fa fa-spotify" aria-hidden="true"></i> Spotify</button>
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <!-- Go back 回退 -->
+            {% include go_back.html %}
+        </div>
+    </div>
+</div>
