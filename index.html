@@ -7,8 +7,7 @@ icon: home
     <div class="left">
         <h1 class="welcome"><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{ site.welcome }}</h1>
         <small>{{ site.small_introduction }}</small>
-    </div>
-    <div class="left main">
+        <hr>
         <ul>
             {% for post in paginator.posts %}
               <li>

@@ -35,7 +35,7 @@
             }
             li {
                 line-height: 1.8;
-                color: #333;
+                color: #6a6b6b;
                 time {
                     display: inline-block;
                     width: 135px;
@@ -43,7 +43,7 @@
                 }
                 .title {
                     font-weight: bold;
-                    color: #333;
+                    color: rgb(0, 60, 255);
                     transition: 0.3s ease;
                     &:hover {
                         color: #4d6dad;
@@ -61,7 +61,7 @@
                     }
                     a {
                         padding: 0 5px;
-                        background-color: #c300ff;
+                        background-color: #24A69A;
                         border-radius: 5px;
                         color: #fff;
                         font-size: 90%;
@@ -79,7 +79,7 @@
                     a {
                         // border: 1px solid #aaa;
                         padding: 0 5px;
-                        background-color: #687fff;
+                        background-color: #135953;
                         border-radius: 5px;
                         color: #fff;
                         font-size: 90%;
@@ -143,6 +143,10 @@
         .rss {
             background-image: linear-gradient(45deg,#f7f8a6 0,rgb(255, 187, 0));
             // rss渐变
+        }
+        .comments {
+            background-image: linear-gradient(45deg,#43faa5 0,#25b449);
+            // 评论渐变
         }
         .content-ul {
             overflow-y: auto;

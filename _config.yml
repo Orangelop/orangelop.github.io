@@ -18,7 +18,7 @@ email: orangelop@qq.com
 description_footer: 我们的征途是星辰大海
 
 # 评论
-disqus_comments_shortname: 
+disqus_comments_shortname: orangelop-blog
 google_analytics_id: G-54SGB2GV90
 
 # Build settings
@@ -26,9 +26,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
-# port
-# port: 1234
 
 # category/tgs 地址
 category_dir: category/
@@ -46,3 +43,6 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-paginate
+  
+# port
+port: 5000

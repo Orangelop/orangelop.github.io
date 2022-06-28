@@ -1,0 +1,369 @@
+/* colorful.css */
+// ver: 1.1.0-rc.1-modified
+// removed labels
+
+/* Button BEGIN */
+/* General Tunnel */
+button:focus {
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+button {
+    margin: 5px 0;
+    text-align: center;
+    // font-family: 'Times New Roman', Times, serif; /* 测试用 */
+    border: 1px solid;
+}
+button:hover {
+    transition: 0.3s ease;
+}
+/* Large */
+.btnLarge {
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 18px;
+}
+/* Medium */
+.btnMedium {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+/* Small */
+.btnSmall {
+    padding: 1px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+/* Colours */
+/* Green */
+.buttonGreen {
+    color: #fff;
+    border-color: #419641;
+    background-color: #5cb85c;
+}
+.buttonGreen:hover {
+    background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+}
+.buttonGreen:focus {
+    color: #0c3a0c;
+    border-color: #306e30;
+}
+/* White */
+.buttonWhite {
+    color: #000;
+    border-color: #ccc;
+    background-color: #fff;
+}
+.buttonWhite:hover {
+    background-color: #ccc;
+}
+
+.buttonWhite:focus {
+    color: #fff;
+    border-color: #aaaaaa;
+    background-color: #707070;
+}
+/* Purple */
+.buttonPurple {
+    color: #fff;
+    border-color: #265a88;
+    background-color: #337ab7;
+}
+.buttonPurple:hover {
+    background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%)
+}
+.buttonPurple:focus {
+    color: #0f2538;
+    border-color: #1e486d;
+}
+/* Blue */
+.buttonBlue {
+    color: #fff;
+    border-color: #2aabd2;
+    background-color: #5bc0de;
+}
+.buttonBlue:hover {
+    background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);
+}
+.buttonBlue:focus {
+    color: #1b748f;
+    border-color: #479cb6;
+}
+/* Orange */
+.buttonOrange {
+    color: #fff;
+    border-color: #f0ad4e;
+    background-color: #eb9316;
+}
+.buttonOrange:hover {
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
+}
+.buttonOrange:focus {
+    color: #b97413;
+    border-color: #d49741;
+}
+/* Red */
+.buttonRed {
+    color: #fff;
+    border-color: #d9534f;
+    background-color: #c12e2a;
+}
+.buttonRed:hover {
+    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+}
+.buttonRed:focus {
+    color: #811f1c;
+    border-color: #b34541;
+}
+/* Button END */
+
+/* Alerts BEGIN */
+/* General Tunnel */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    /* box-shadow: inset 0 1px 0 rgb(255 255 255 / 25%), 0 1px 2px rgb(0 0 0 / 5%); 
+    text-shadow: 0 1px 0 rgb(255 255 255 / 20%); */
+}
+/* Green */
+.alertGreen {
+    /* background-image: linear-gradient(to bottom,#dff0d8 0,#c8e5bc 100%); */
+    background-color: #c8e5bc;
+    background-repeat: repeat-x;
+    border-color: #b2dba1;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+/* Yellow */
+.alertYellow {
+    /* background-image: linear-gradient(to bottom,#fcf8e3 0,#f8efc0 100%); */
+    background-color: #f8efc0;
+    background-repeat: repeat-x;
+    border-color: #f5e79e;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+}
+/* Blue */
+.alertBlue {
+    /* background-image: linear-gradient(to bottom,#d9edf7 0,#b9def0 100%); */
+    background-color: #b9def0;
+    background-repeat: repeat-x;
+    border-color: #9acfea;
+    color: #31708f;
+    background-color: #d9edf7;
+}
+/* Red */
+.alertRed {
+    /* background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%); */
+    background-color: #e7c3c3;
+    background-repeat: repeat-x;
+    border-color: #dca7a7;
+    color: #a94442;
+    background-color: #f2dede;
+}
+/* Alerts END */
+
+/* Process Bars BGEIN */
+/* General Tunnel */
+.progress {
+    background-image: linear-gradient(to bottom,#ebebeb 0,#f5f5f5 100%);
+    background-repeat: repeat-x;
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: inset 0 .5px 1px #0000001a;
+}
+.pb {
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 -1px 0 #00000026;
+    transition: width 0.6s ease;
+    background-color: #337ab7;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom,#337ab7 0,#286090 100%);
+    background-repeat: repeat-x;
+}
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+/* Blue */
+.pbBlue {
+    background-image: linear-gradient(to bottom,#5bc0de 0,#31b0d5 100%);
+    background-repeat: repeat-x;
+    background-color: #5bc0de;
+}
+/* Striped */
+.pbStriped {
+    background-size: 40px 40px;
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
+/* Green */
+.pbGreen {
+    background-image: linear-gradient(to bottom,#5cb85c 0,#449d44 100%);
+    background-repeat: repeat-x;
+    background-color: #5cb85c;
+}
+/* Yellow */
+.pbYellow {
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    background-color: #f0ad4e;
+}
+/* Red */
+.pbRed {
+    background-image: linear-gradient(to bottom,#d9534f 0,#c9302c 100%);
+    background-repeat: repeat-x;
+    background-color: #d9534f;
+}
+/* Process Bars END */
+
+/* Panels BEGIN */
+/* General Tunnel */
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px #0000000d;
+}
+.panel > .panelBody {
+    padding: 15px;
+}
+.panelTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panelHeading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 8.125px 8.125px 0 0;
+    background-repeat: repeat-x;
+}
+/* Default */
+.panelDefault {
+    border-color: #ddd;
+}
+.panelHeadingDefault {
+    /* background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%); */
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+/* Green */
+.panelGreen {
+    border-color: #d6e9c6;
+}
+.panelHeadingGreen {
+    /* background-image: linear-gradient(to bottom,#dff0d8 0,#d0e9c6 100%); */
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+/* Yellow */
+.panelYellow {
+    border-color: #faebcc;
+}
+.panelHeadingYellow {
+    /* background-image: linear-gradient(to bottom,#fcf8e3 0,#faf2cc 100%); */
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+/* Purple */
+.panelPurple {
+    border-color: #337ab7;
+}
+.panelHeadingPurple {
+    /* background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%); */
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+/* Blue */
+.panelBlue {
+    border-color: #bce8f1;
+}
+.panelHeadingBlue {
+    /* background-image: linear-gradient(to bottom,#d9edf7 0,#c4e3f3 100%); */
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+/* Red */
+.panelRed {
+    border-color: #ebccd1;
+}
+.panelHeadingRed {
+    /* background-image: linear-gradient(to bottom,#f2dede 0,#ebcccc 100%); */
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+/* Panels END */
+
+/* Blocks BEGIN */
+/* General Tunnel */
+/* NOT AUTOMATICED */
+.block {
+    /* background-image: linear-gradient(to bottom,#e8e8e8 0,#f5f5f5 100%); */
+    background-repeat: repeat-x;
+    border-color: #dcdcdc;
+    /* box-shadow: inset 0 1px 3px rgb(0 0 0 / 5%), 0 1px 0 rgb(255 255 255 / 10%); */
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+}
+.blockText {
+    margin: 0 0 10px;
+}
+/* Blocks END */
+
+/* Labels BEGIN */
+// 冲突
+
+/* Labels END */
+
+/* Thumbnails BEGIN */
+/* General Tunnel */
+.thumbnail {
+    box-shadow: 0 1px 2px #00000014;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+/* Thumbnails END */
+
+/* Tables BEGIN */
+/* General Tunnel */
+/* 表格bug多不想写QAQ */
+/* Tables END */
+
+/* colourful.css END */
+/* 20220627 */

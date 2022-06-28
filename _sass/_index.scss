@@ -1,13 +1,10 @@
 .page[index] {
   a {
-    color: #014C75;
-    transition: 0.5s ease;
+    color: #174F6E;
+    transition: 0.2s ease;
     &:hover {
-      color: #002530;
+      color: #2380B5;
     }
-  }
-  .main {
-    margin-top: 20px;
   }
   .left {
     .welcome  {
@@ -86,7 +83,6 @@
     }
   }
   .right {
-    margin-top: -105px;
     .wrap {
       .side {
         margin-bottom: 20px;
