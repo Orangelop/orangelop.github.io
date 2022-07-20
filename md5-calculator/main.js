@@ -202,3 +202,12 @@ function binl2b64(binarray)
   }
   return str;
 }
+
+let output = document.getElementById("hash")
+let btn = document.getElementById("copyButton")
+function copy() {
+    copyToClipboard(output.value)
+    alert("复制成功")
+}
+const copyToClipboard = (text) =>
+    navigator.clipboard?.writeText && navigator.clipboard.writeText(text)

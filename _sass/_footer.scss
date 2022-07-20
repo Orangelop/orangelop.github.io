@@ -3,13 +3,14 @@
     right: 0;
     bottom: 0;
     left: 0;
-
     text-align: center;
     // margin-top: 50px;
     // background-color: #01617D;
-    background-image: linear-gradient(90deg,rgb(40, 179, 167) 0,#025872);
+    background-color: #f8f8fd;
+    box-shadow: 0 -2px 2px 0px #00000014;
+    // background-image: linear-gradient(90deg,rgb(40, 179, 167) 0,#025872);
     // box-shadow: 0 -2px 2px 0.5px rgba(0,0,0,0.5);
-    color: #fff;
+    color: #000000;
     .wrapper {
         width: 1140px;
         margin: 0 auto;
@@ -23,7 +24,7 @@
         .contact {
             display: inline-block;
             a {
-                color: #ccc;
+                color: black;
                 transition: 0.3s ease;
                 &:hover {
                     color: #fff;

@@ -3,11 +3,12 @@
     left: 50%;
     margin-left: 580px;
     bottom: 37px;
-    background-color: #f8f8fd;
+    background-color: #bdbdbd;
     visibility: hidden;
     opacity: 0;
     transition: 0.4s ease;
     border-radius: 25px; //圆角
+    border: 2px solid #ccc;
     a {
         display: block;
         background-color: #eee;

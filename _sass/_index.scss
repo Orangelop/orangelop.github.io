@@ -84,6 +84,9 @@
   }
   .right {
     .wrap {
+      .introduction {
+        background-color: linear-gradient(90deg,#FF8372,#D8160F);
+      }
       .side {
         margin-bottom: 20px;
         padding-bottom: 0;
@@ -136,12 +139,14 @@
         .content-ul[recent] {
           padding-bottom: 16px;
           li {
-            color: #aaa;
+            // color: #aaa;
+            color: black;
             font-size: 14px;
           }
         }
         .tags-cloud {
           font-weight: normal;
+          border-bottom: none;
           a {
             padding: 0 3px;
             border-radius: 5px;

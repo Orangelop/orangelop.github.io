@@ -1,5 +1,5 @@
 /* colorful.css */
-// ver: 1.1.0-rc.1-modified
+// ver: 1.1.0-rc.1-modified-scss-ver
 // removed labels
 
 /* Button BEGIN */
@@ -106,8 +106,8 @@ button:hover {
 /* Red */
 .buttonRed {
     color: #fff;
-    border-color: #d9534f;
-    background-color: #c12e2a;
+    border-color: #c12e2a;
+    background-color: #d9534f;
 }
 .buttonRed:hover {
     background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
@@ -116,6 +116,23 @@ button:hover {
     color: #811f1c;
     border-color: #b34541;
 }
+
+/* Inside - Red - Left <input> */
+.buttonRedInsideL {
+    margin-left: -2px;
+	border-radius: 0 10px 10px 0;
+    color: #fff;
+    border-color: #c12e2a;
+    background-color: #d9534f;
+}
+.buttonRedInsideL:hover {
+    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+}
+.buttonRedInsideL:focus {
+    color: #811f1c;
+    border-color: #b34541;
+}
+
 /* Button END */
 
 /* Alerts BEGIN */

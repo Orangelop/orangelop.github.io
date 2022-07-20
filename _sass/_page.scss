@@ -12,6 +12,9 @@
     box-sizing: border-box;
     margin: 0 auto;
     // word-break: break-all;
+    img {
+        border-radius: 10px;
+    }
     .left {
         width: 75%;
         float: left;
@@ -19,6 +22,7 @@
         line-height: 1.6;
         font-size: 16px;
         background-color: #f8f8fd;
+        box-shadow: 2px 4px 12px #00000014;
         // box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
         // box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(10, 10, 0, 0.1) inset;
         border-radius: 10px; //圆角
@@ -30,7 +34,7 @@
         }
         ul {
             >h2 {
-                margin-left: -40px;
+                margin-left: -35px;
                 color: #6a6b6b;
             }
             li {
@@ -112,6 +116,7 @@
             box-sizing: border-box;
             // border: 1px solid #333; // 边框
             background-color: #f8f8fd;
+            box-shadow: 2px 4px 12px #00000014;
             // box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(10, 10, 0, 0.1) inset;
             padding-bottom: 1px;
             -ms-word-break: break-all;
@@ -125,9 +130,17 @@
             padding-bottom: 1px; //框的底部宽
             margin-bottom: 20px; //间隙
             border-radius: 10px; //圆角
+            .backInside {
+                border-bottom: none;
+            }
+            .rssInside {
+                border-bottom: none;
+            }
+            .commentsInside {
+                border-bottom: none;
+            }
             >div {
                 padding: 12px 15px;
-                margin-right: -10px;
                 border-bottom: 1px solid #cfcfcf;
                 font-size: 16px;
                 font-weight: bold;

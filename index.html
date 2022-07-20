@@ -61,6 +61,14 @@ icon: home
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
+          <div class="side introduction">
+            <div><a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a></div>
+            <ul class="briefIntro content-ul" recent>
+              <li>Motto: {{site.brief-intro}}</li>
+              <li>Hometown: Yancheng, China.</li>
+              <li>School: 盐城中学 (2022-2025)</li>
+            </ul>
+          </div>
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Recent Posts</div>
                 <ul class="content-ul" recent>
@@ -71,7 +79,7 @@ icon: home
             </div>
 
             <!-- Content -->
-            <div class="side ">
+            <div class="side">
                 <div><i class="fa fa-th-list"></i> Catagory <a href="../category/"><small>Show all...</small></a></div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories %}
@@ -131,13 +139,13 @@ icon: home
             <div class="side">
                 <div><i class="fa fa-external-link"></i> Links</div>
                 <ul class="content-ul" recent>
-                    <li><a href="../cxk-ball/game.html">cxk打篮球 at this blog</a></li>
-                    <li><a href="../bullshitgenerator/main.html">狗屁不通生成器 at this blog</a></li>
-                    <li><a href="../md5-calculator/main.html">MD5计算器 at this blog</a></li>
+                    <li><a href="/cxk-ball/">cxk打篮球 at this blog</a></li>
+                    <li><a href="/bullshitGenerator/">狗屁不通生成器 at this blog</a></li>
+                    <li><a href="/md5-calculator/">MD5计算器 at this blog</a></li>
                 </ul>
             </div>
             <div class="side rss">
-              <div><i class="fa fa-rss" aria-hidden="true"></i> RSS <a href="/feed.xml"><small>Click here...</small></a></div>
+              <div class="rssInside"><i class="fa fa-rss" aria-hidden="true"></i> RSS <a href="/feed.xml"><small>Click here...</small></a></div>
             </div>
         </div>
     </div>

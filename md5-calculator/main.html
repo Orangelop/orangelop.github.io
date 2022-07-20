@@ -1,50 +1,46 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link href="./style.css" rel="stylesheet" type="text/css">
-    <title>MD5 Encryption</title>
-    <script src="./osd.js"></script>
-    <script src=./main.js></script>
-  </head>
-<body> 
-<div class="top">
-  <div class="home">
-    <a href="https://orangelop.github.io" title="Go Back to Orangelop's Blog">
-    <b><font>32 Bits MD5 Encryption Tool</font></b>
-  </a>
-  </div>
-</div>
+---
+layout: default
+title: MD5 Calculator
+permalink: /md5-calculator/
+icon: calculator
+---
 
-<div class="main" style="height: auto;">
-  <div class="title">
-    <h1 size="30 px"><b>Encrypt to MD5</b></h1>
-  </div>
-  <div class="textdiv">
-    <textarea class="textarea" id="src" name="input">Input whatever you want to convert to 32 bits MD5</textarea>
-  </div>
-  <div class="button" style="margin:10px 0px;">
-    <input onclick="var v = hex_md5(document.getElementById(&#39;src&#39;).value); document.getElementById(&#39;hash&#39;).value = (document.getElementById(&#39;uc&#39;).checked) ? v.toUpperCase() : v.toLowerCase();" type="button" value="Encrypt it" name="decode">&nbsp;
+<link href="./style.css" rel="stylesheet" type="text/css">
+<script src=./main.js></script>
+
+<body> 
+<div class="page clearfix">
+  <div class="left">
+      <h1>{{page.title}}</h1>
+      <hr>
+      <div class="alert alertRed" role="alert">
+        <strong>Notice: </strong>We will not store any content you enter.
+      </div>
+      <div class="panel panelBlue">
+        <div class="panelHeading panelHeadingBlue">
+          <h3 class="panelTitle">Input</h3>
+        </div>
+        <div class="panelBody"><textarea class="textarea" id="src" name="input" placeholder="Type here or paste from your clipboard."></textarea></div>
+      </div>
+      <div>
+      <button class="btnMedium buttonGreen" onclick="var v = hex_md5(document.getElementById('src').value); document.getElementById('hash').value = (document.getElementById('uc').checked) ? v.toUpperCase() : v.toLowerCase();" name="deconde">Calculate</button>
       <label>
-        <input type="checkbox" value="y" name="uc" id="uc" onclick="document.getElementById(&#39;hash&#39;).value = (document.getElementById(&#39;uc&#39;).checked) ? document.getElementById(&#39;hash&#39;).value.toUpperCase() : document.getElementById(&#39;hash&#39;).value.toLowerCase();">Capital Words
+        <input type="checkbox" value="y" name="uc" id="uc" onclick="document.getElementById('hash').value = (document.getElementById('uc').checked) ? document.getElementById('hash').value.toUpperCase() : document.getElementById('hash').value.toLowerCase();">Capital Words
       </label>
+      </div>
+      <div class="outputAlert alert alertGreen" role="alert">
+        <strong>Output: </strong>
+        <input class="output" name="hash" id="hash" type="text" readonly="true" style="width: 255px; outline: none;">
+        <div style="float: right;"><button class="btnMedium buttonBlue" style="margin: 0;" onclick="copy()">Copy Manually</button></div>
+      </div>
   </div>
-  <input name="hash" id="hash" type="text" style="font-family:Google Sans Display;width:98%;height:1em;padding:4px 1%;border:1px; color:#008b8b; solid;" readonly="">
-  <div style="line-height:160%;">
-  <h2>Description of MD5</h2>
-  <details>
-    <summary style="cursor: pointer;">Click Here to view the description of MD5</summary>
-    <div style="margin-top: 8px;">
-      <font color="#000000">MD5 Message-Digest Algorithm, a widely used cryptographic hash function, can generate a 128-bit (16-byte) hash value to ensure information transmission Complete and consistent. MD5 was designed by Ronald Linn Rivest, an American cryptographer, and published in 1992 to replace the MD4 algorithm. The procedure of this algorithm is regulated in the RFC 1321 standard. After 1996, the algorithm was proved to have weaknesses and could be cracked. For data that requires high security, experts generally recommend using other algorithms, such as SHA-2. In 2004, it was confirmed that the MD5 algorithm could not prevent collisions, so It is not suitable for security certification, such as SSL public key certification or digital signature.</font>
-    </div>
-    </details>
-    </div>
-    <h2>
-      Notice: We will not store any content that you enter. If you are not assured, you can save it locally then use it.
-    </h2>
+  <div class="right">
+      <div class="wrap">
+          <!-- Content -->
+          <!-- 其他div框放到这里 -->
+          <!-- <div class="side">bbbb</div> -->
+          {% include go_back.html %}
+      </div>
+  </div>
 </div>
-<div class="foot"><font>Powered by </font><a href="https://orangelop.github.io/"><font color="#008b8b">Orangelop</font></a>
-</div>
-</html>
+</body>

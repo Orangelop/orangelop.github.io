@@ -1,0 +1,41 @@
+button {
+	margin: 0;
+}
+
+.input {
+    width: 98%;
+	margin: 0;
+	padding: 1%;
+	background-color: transparent;
+	border: 1px solid #ced4da;
+	outline: none;
+	border-radius: 10px 0 0 10px;
+	border: 1px solid #ced4da;
+}
+
+.inputBox { 
+	display: flex;
+}
+
+.fontSizeShow {
+	background-color: transparent;
+	border: none;
+	width: 15px;
+	font-family: consolas;
+	border: dashed 1px black;
+	color: black;
+	border-radius: 5px;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	width: 30%;
+    height: 5px;
+    border-radius: 10px;
+    background: #DFE8FB;
+}
+
+.fontSizeChange {
+	width: 20px;
+}
+

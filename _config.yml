@@ -1,8 +1,8 @@
 # Site settings
 title: Orangelop Blog
-brief-intro: 我们的征途是星辰大海
+brief-intro: Still a long way to go.
 small_introduction: Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
-welcome: Welcome to Orangelop's Blog (｡･∀･)ﾉﾞ!
+welcome: Welcome to my blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://orangelop.github.io" # the base hostname & protocol for your site
 
@@ -15,7 +15,7 @@ telegram_username: Orangelop
 email: orangelop@qq.com
 
 # 页尾介绍
-description_footer: 我们的征途是星辰大海
+description_footer: 
 
 # 评论
 disqus_comments_shortname:

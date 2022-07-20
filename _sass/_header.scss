@@ -1,17 +1,18 @@
 header {
     // background: #00A3FF;
     // background: #01617D;
-    background-image: linear-gradient(90deg,#025872 0,rgb(40, 179, 167));
+    background: #f8f8fd;
+    // background-image: linear-gradient(90deg,#025872 0,rgb(40, 179, 167));
     height: 52px;
     // color: #00FFFF;
-    color: #fff; // 字体颜色
-    // box-shadow: 0 1px 2px 0.5px rgba(0, 0, 0, 0.5);
+    color: black; // 字体颜色
+    box-shadow: 0 4px 8px 0 #00000014;
     margin-bottom: 20px;
     a {
-        color: #fff;
+        color: black;
         -webkit-transition: 0.5s ease;
         transition: 0.5s ease;
-        border-radius: 8px;
+        // border-radius: 8px;
         &:hover {
             color: #fff;
         }
@@ -20,6 +21,13 @@ header {
         width: 1140px;
         margin: 0 auto;
         line-height: 52px;
+        .favicon {
+            margin-top: 2px;
+            height: 48px;
+            width: auto;
+            border-radius: none;
+        }
+        // 已移走
         .brand {
             font-size: 18px;
         }
@@ -28,6 +36,7 @@ header {
             font-size: 14px;
             text-decoration: underline;
         }
+        // end
         .menu{
             display: none;
         }
@@ -47,6 +56,7 @@ header {
                         display: inline-block;
                         padding: 0 10px;
                         height: 52px;
+                        font-size: 15px;
                         &:hover {
                             background-color: #01617D;// 选中框背景颜色
                         }
@@ -118,7 +128,7 @@ header {
                 position: absolute;
                 z-index: -102;
                 right: 0;
-                top:10px;
+                top: 3px;
                 padding: 5px 10px;
                 background: rgb(0, 107, 100);
                 // border: 1px solid #333; // 边框

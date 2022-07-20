@@ -27,10 +27,11 @@ html {
     height: 100%;
 }
 body {
-    font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+    // font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     color: #333;
     // background-image: url(https://gw.alicdn.com/tfs/TB1xzbUumBYBeNjy0FeXXbnmFXa-125-121.png);
-    background-color: #cfcfcf;
+    background-color: #e7e7e7;
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
@@ -51,11 +52,12 @@ h1 {
 h2 {
     font-size: 26px;
     border-bottom: 1px solid #e3e3e3;
-    margin: 50px 0 25px;
+    // h2间距
+    margin: 25px 0 25px;
 }
 h3 {
     font-size: 23px;
-    margin: 50px 0 20px;
+    margin: 20px 0 20px;
 }
 h4 {
     font-size: 19px;
@@ -113,4 +115,9 @@ p {
 }
 img {
     max-width: 100%;
+}
+.faviconSmall {
+    height: 16px;
+    width:auto;
+    margin-right: 5px;
 }
