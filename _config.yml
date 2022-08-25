@@ -46,4 +46,4 @@ plugins:
   - jekyll-paginate
   
 # port
-port: 5000
+port: 4250
