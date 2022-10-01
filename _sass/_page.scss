@@ -26,9 +26,9 @@
         // box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
         // box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(10, 10, 0, 0.1) inset;
         border-radius: 10px; //圆角
-        >h1 {
-            margin-bottom: -10px;
-        }
+        // >h1 {
+        //     margin-bottom: -10px;
+        // }
         a:not([title]){
             word-break: break-all;
         }
@@ -39,7 +39,7 @@
             }
             li {
                 line-height: 1.8;
-                color: #6a6b6b;
+                // color: #6a6b6b;
                 time {
                     display: inline-block;
                     width: 135px;

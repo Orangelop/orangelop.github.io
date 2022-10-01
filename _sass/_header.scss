@@ -57,11 +57,12 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         font-size: 15px;
+
                         &:hover {
                             // background-color: #01617D;// 选中框背景颜色
                             text-decoration: underline;
-                            box-shadow: 2px 4px 12px #0000002a;
-                            border-radius: 10px;
+                            // box-shadow: 2px 4px 12px #0000002a;
+                            // border-radius: 10px;
                         }
                         i {
                             margin-right: 5px;
@@ -74,8 +75,8 @@ header {
                         // box-shadow: 0 15px 15px -15px rgba(255,255,255,0.93);// 活动框光影
                         // border: 1px solid black;
                         transition: all .3s cubic-bezier(0,0,.5,1);
-                        box-shadow: 2px 4px 12px #0000003a;
-                        border-radius: 10px;
+                        // box-shadow: 2px 4px 12px #0000003a;
+                        // border-radius: 10px;
                         text-decoration: underline;
                     }
                 }

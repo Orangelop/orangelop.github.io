@@ -10,9 +10,51 @@ type: page
     <div class="left">
         <h1><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{page.title}}</h1>
         <hr>
-        <h2 id="Inroduction">Introduction 介绍</h2>
+        <h1 id="orangelop-aka-null"><em>orangelop</em> aka. <em>null.</em></h1>
+        <p>Chinese, Senior High Student, Frontend &amp; Semi-backend Programmer, Founder &amp; Owner of <em>LME</em>.</p>
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li>Python, C++, Java.</li>
+          <li>Frontend &amp; Backend (JavaScript, TypeScript, node.js, CSS, vue.js, react, etc.).</li>
+          <li>Modeling &amp; Animation (Blender, Cinema 4D, etc.).</li>
+          <li>Engine Unity/UE tool development.</li>
+          <li>Software Development (PWA application, win32, electron, etc.).</li>
+          <li>Reverse.</li>
+          <li>Electronic music composing.</li>
+          <li>Photography &amp; Video clipping.</li>
+        </ul>
+        <h2 id="projects">Projects</h2>
+        <p>visit xxxx</p>
+        <h2 id="interests">Interests</h2>
+        <ul>
+          <li>Electronic music.</li>
+          <li>Games:
+        enka.network
+        原神 天空岛(官服): 201587231
+        Asia Server: 856488801
+        明日方舟; 崩坏3; Phigros; Arcaea; …</li>
+          <li>Photography.</li>
+          <li>…</li>
+        </ul>
+        <h2 id="contact">Contact</h2>
+        <ul>
+          <li>Emails orangelop@qq.com <strong>(RECOMMENDED)</strong>; orangelop@yeah.net; orangelopn@gmail.com</li>
+          <li>BiliBili (B站) @Orangelop</li>
+          <li>GitHub @Orangelop &lt; orangelop@qq.com &gt;</li>
+          <li>Steam @orangelop &lt; orangelop@qq.com &gt;</li>
+          <li>Netease Cloud Music (网易云音乐) @Orangelop</li>
+          <li>Twitter @orangelop_</li>
+          <li>Instagram @Orangelop_wuye</li>
+          <li>Twitch @Orangelop <strong>(SELDOM USED)</strong></li>
+          <li>Reddit @Orangelop <strong>(SELDOM USED)</strong></li>
+          <li>YouTube @Orangelop</li>
+        </ul>
+
         <hr>
-        <h2 id="Contact.Me">Contact Me 联系我</h2>
+        <h2 id="#Donation.Methods"><i class="fa fa-heart" aria-hidden="true"></i> Donate</h2>
+        <img src="../assets/donation.png">
+        <hr>
+        <h2 id="Contact">Contact</h2>
         <button class="btnMedium buttonOrange" onclick="javascript:window.location.href='https://space.bilibili.com/54818676'"> 哔哩哔哩: @Orangelop</button>  
         <button class="btnMedium buttonRed" onclick="javascript:window.location.href='https://www.youtube.com/channel/UCQp87Pa5nKeW2CChsIgbOeg'">
             <i class="fa fa-youtube-play" aria-hidden="true"></i> @Orangelop
@@ -49,11 +91,10 @@ type: page
             <i class="fa fa-envelope"></i> orangelop@yeah.net
         </button>
         <hr> 
-        <h2 id="#Donation.Methods"><i class="fa fa-heart" aria-hidden="true"></i> Donation Methods 赞助方式</h2>
-        <img src="../assets/donation.png">
-        <hr>
-        <h2 id="Comments">Comments 评论</h2>
+        {% if site.disqus_comments_shortname %}
+        <h2 id="Comments">Comments</h2>
         {% include disqus_comments.html %}
+        {% endif %}
     </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
     <div class="right">
@@ -62,15 +103,18 @@ type: page
             <div class="side content">
                 <div><i class="fa fa-th-list" aria-hidden="true"></i> List</div>
                 <ul id="content-side" class="content-ul" style="max-height: 488px;">
-                    <li><a href="#Introduction" id="Introduction" data-scroll="">Introduction 介绍</a></li>
-                    <li><a href="#Contact.Me" id="Contact.Me" data-scroll="">Contact Me 联系我</a></li>
-                    <li><a href="#Donation.Methods" id="Donation.Methods" data-scroll="">Donation Methods 赞助方式</a></li>
-                    <li><a href="#Comments" id="Comments" data-scroll="">Comments 评论</a></li>
+                    <li><a href="#Introduction" id="Introduction" data-scroll="">Introduction</a></li>
+                    <li><a href="#Interests" id="Interests" data-scroll="">Interests</a></li>
+                    <li><a href="#Contact" id="Contact" data-scroll="">Contact</a></li>
+                    <li><a href="#Donate" id="Donatie" data-scroll="">Donate</a></li>
+                    <li><a href="#Comments" id="Comments" data-scroll="">Comments</a></li>
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->
             <!-- Go back 回退 -->
+            {% if site.disqus_comments_shortname %}
             {% include comments.html %}
+            {% endif %}
             {% include go_back.html %}
         </div>
     </div>

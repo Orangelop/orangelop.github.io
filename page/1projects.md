@@ -13,7 +13,6 @@ type: page
 
 <button class="btnMedium buttonPurple" onclick="javascript:window.location.href='/about/'"><i class="fa fa-info-circle" aria-hidden="true"></i> Introduction</button>
 <button class="btnMedium buttonWhite" onclick="javascript:window.location.href='https://github.com/Orangelop/orangelop.github.io'"><i class="fa fa-code" aria-hidden="true"></i> Source Code</button>  
-一个准高一学生的博客
 
 ## <i class="fa fa-calculator" aria-hidden="true"></i> MD5 Calculator
 
