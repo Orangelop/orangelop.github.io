@@ -8,6 +8,9 @@ author: Orangelop aka. null.
 excerpt: Arch Linux 安装教程
 ---
 
+* content
+{:toc}
+
 Arch Linux官方简体中文文档指路：[Click Here](https://wiki.archlinux.org/index.php/Installation_guide_(简体中文))  
 Edited by Orangelop [博客](https://orangelop.github.io/) / [哔哩哔哩](https://space.bilibili.com/54818676)
 

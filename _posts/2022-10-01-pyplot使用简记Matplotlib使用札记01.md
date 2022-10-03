@@ -8,3 +8,5 @@ author: Orangelop aka. null.
 excerpt: pyplot使用简记-matplotlib使用札记01
 ---
 
+* content
+{:toc}

@@ -8,6 +8,9 @@ author: Orangelop aka. null.
 excerpt: Physics Formulas
 ---
 
+* content
+{:toc}
+
 ## 杠杆
 
 $F_1l_1=F_2l_2$

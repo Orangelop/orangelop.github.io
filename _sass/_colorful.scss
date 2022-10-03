@@ -377,6 +377,32 @@ button:hover {
 }
 /* Thumbnails END */
 
+/* 2022-10-03 scss update */
+/* <details> Begin */
+details {
+    border: 2px solid #31708f;
+    border-radius: 15px;
+    padding: .5em .5em 0;
+    
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+    transition: 0.5s;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #31708f;
+    margin-bottom: .5em;
+}
+/* <details> END */
+
 /* Tables BEGIN */
 /* General Tunnel */
 /* 表格bug多不想写QAQ */
@@ -384,3 +410,4 @@ button:hover {
 
 /* colourful.css END */
 /* 20220627 */
+/* 20221003 */
