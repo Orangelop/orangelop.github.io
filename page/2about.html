@@ -6,6 +6,30 @@ icon: info-circle
 type: page
 ---
 
+<style>
+    .about {
+        border: 2px solid;
+    }
+    .donate-left {
+        text-align: center;
+        float: left;
+        display: block;
+        flex-direction: row;
+        width: 40%;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .donate-right {
+        text-align: center;
+        float: right;
+        display: block;
+        flex-direction: row;
+        width: 40%;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+</style>
+
 <div class="page clearfix">
     <div class="left">
         <h1><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{page.title}}</h1>
@@ -15,7 +39,7 @@ type: page
             <p>Chinese, Senior High Student, Frontend &amp; Semi-backend Programmer, Founder &amp; Owner of <em>LME</em>.</p>
         </div>
         <hr>
-        <div class="alert alertGreen" role="alert">
+        <div class="alert alertGreen about" role="alert">
             <h1 id="skills">Skills</h1>
             <ul>
                 <li>Python, C++, Java.</li>
@@ -29,12 +53,12 @@ type: page
               </ul>
         </div>
         <hr>
-        <div class="alert alertBlue" style="font-size: 20px;" role="alert">
+        <div class="alert alertBlue about" style="font-size: 20px;" role="alert">
             <h1 id="Projects">Projects</h2>
             <i class="fa fa-info-circle" aria-hidden="true"></i><strong> Visit: </strong><a href="/projects" style="text-decoration: underline;color:black;">orangelop blog | Projects </a><i class="fa fa-external-link" aria-hidden="true"></i>
         </div>
         <hr>
-        <div class="alert alertGreen" role="alert">
+        <div class="alert alertGreen about" role="alert">
             <h1 id="Interests">Interests</h1>
             <ul>
                 <li>Electronic music.</li>
@@ -44,7 +68,7 @@ type: page
             </ul>
         </div>
         <hr>
-        <div class="alert alertBlue" role="alert">
+        <div class="alert alertBlue about" role="alert">
             <h1 id="Contact">Contact</h1>
             <ul>
                 <li>Emails orangelop@qq.com <strong>(RECOMMENDED)</strong>; orangelop@yeah.net; orangelopn@gmail.com</li>
@@ -94,8 +118,18 @@ type: page
             </details>
         </div>
         <hr>
-        <h1 id="Donate"><i class="fa fa-heart" aria-hidden="true"></i> Donate</h1>
-        <img src="../assets/donation.png">
+        <div class="alert alertWhite" role="alert">
+            <h1 id="Donate"><i class="fa fa-heart" aria-hidden="true"></i> Donate</h1>
+            <div class="donate">
+                <div class="donate-left">
+                    <h1>Select a payment method.</h1>
+                    <img src="../assets/donateAlipay.png" class="thumbnail">
+                </div>
+                <div class="donate-right">
+                    <h1>qrcode</h1>
+                </div>
+            </div>
+        </div>
         <hr>
         {% if site.disqus_comments_shortname %}
         <h2 id="Comments">Comments</h2>
