@@ -21,7 +21,9 @@ description_footer:
 # 评论
 disqus_comments_shortname:
 # orangelop-blog
-google_analytics_id: G-54SGB2GV90
+google_analytics_id:
+# G-54SGB2GV90
+# 2022/10/15 not useable in CN
 
 # Build settings
 markdown: kramdown
@@ -47,4 +49,4 @@ plugins:
   - jekyll-paginate
   
 # port
-port: 4225
+port: 11111

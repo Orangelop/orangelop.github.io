@@ -1,7 +1,5 @@
 textarea, select {
-	resize: none;
 	outline: none;
-	font-size: 1em;
 	font-family: consolas;
 }
 
