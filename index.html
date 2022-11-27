@@ -64,8 +64,13 @@ icon: home
           <div class="side introduction">
             <div><a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a></div>
             <ul class="briefIntro content-ul" recent>
-              <li>Motto: {{site.brief-intro}}</li>
-              <li>Hometown: Yancheng, China.</li>
+              {% if site.brief-intro1 %}
+              <li>{{site.brief-intro1}}</li>
+              {% endif %}
+              {% if site.brief-intro2 %}
+              <li>{{site.brief-intro2}}</li>
+              {% endif %}
+              <li>Yancheng, China.</li>
             </ul>
           </div>
             <div class="side">
