@@ -1,7 +1,7 @@
 header {
     // background: #00A3FF;
     // background: #01617D;
-    background: #f8f8fd;
+    background: #fafafa;
     // background-image: linear-gradient(90deg,#025872 0,rgb(40, 179, 167));
     height: 52px;
     // color: #00FFFF;
@@ -27,16 +27,30 @@ header {
             width: auto;
             border-radius: none;
         }
-        // 已移走
+        a {
+            display: inline-block;
+            padding: 0 10px;
+            height: 52px;
+            font-size: 15px;
+
+            &:hover {
+                color: #01617D;// 选中框背景颜色
+                text-decoration: underline;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
         .brand {
-            font-size: 18px;
+            font-size: 20px;
         }
         small {
-            margin-left: 26px;
+            margin-left: 5px;
             font-size: 14px;
-            text-decoration: underline;
+            text-decoration: solid;
+            box-sizing: border-box;
+            font-weight: bold;
         }
-        // end
         .menu{
             display: none;
         }

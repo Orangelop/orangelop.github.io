@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Hackergame2022 (第九届中科大信安赛) Writeup
+title: Hackergame2022 Writeup
 date: 2022-10-29 00:00:00
 categories: CTF
 tags: hackergame CTF
 author: Orangelop aka. null.
-excerpt: hackergame2022 Writeup
+excerpt: hackergame2022 (第九届中科大信安赛) Writeup
 ---
 
 * content

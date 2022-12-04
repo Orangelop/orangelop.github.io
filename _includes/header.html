@@ -1,8 +1,10 @@
 <header id="top">
     <div class="wrapper">
-        <a href="/"><img class="favicon" src="/faviconL.png"></a>
-        <!--a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</!--a>
-        <small>{{site.brief-intro}}</small-->
+        <!--a href="/"><img class="favicon" src="/faviconL.png"></!a-->
+        <div>
+            <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+            <small>{{site.brief-intro}}</small>
+
         <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
         <nav id="headerNav">
             <ul>
@@ -12,7 +14,7 @@
                         {% else %}
                     <a href="{{site.baseurl}}/">
                     {% endif %}
-                        <i class="fa fa-home"></i>Main Page</a>|
+                        <i class="fa fa-home"></i>Main Page</a>
                 </li>
 
                 {% for my_page in site.pages %}
@@ -24,11 +26,11 @@
                         <a href="{{ my_page.url | prepend: site.baseurl }}">
                         {% endif %}
                             <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
-                        </a>|
+                        </a>
                     </li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        </nav>
+        </nav>        </div>
     </div>
 </header>
