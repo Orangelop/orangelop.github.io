@@ -1,0 +1,23 @@
+
+<!-- Typing effect show div -->
+<small id="text"></small>
+
+<script>
+  let divTyping = document.getElementById('text')
+  let i = 0,
+    timer = 0,
+    str = '{{site.brief-intro}}' // Text which needs to be printed
+
+  function typing () {
+    if (i <= str.length) {
+      divTyping.innerHTML = str.slice(0, i++) + '_'
+      timer = setTimeout(typing, 100)
+    }
+    else {
+      divTyping.innerHTML = str // Remove cursor '_' after typing is done.
+      clearTimeout(timer)
+    }
+  }
+  typing() // Typing init
+</script>
+
