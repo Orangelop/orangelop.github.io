@@ -18,11 +18,11 @@ type: page
 
 ![11](https://img.shields.io/static/v1?label=latest-releases&message=10.0.0-final&color=brightgreen?style=flat-square&logo=github)
 
-<button class="btnMedium buttonOrange" onclick="javascript:window.location.href='/md5-calculator/'"><i class="fa fa-server" aria-hidden="true"></i> Demo at this blog (modified)</button>
-<button class="btnMedium buttonOrange" onclick="javascript:window.location.href='https://md5calculator.glitch.me/'"><i class="fa fa-server" aria-hidden="true"></i> Demo at glitch.me</button>
+<button class="btnMedium buttonOrange" onclick="javascript:window.location.href='/md5-calculator/'"><i class="fa fa-server" aria-hidden="true"></i> Demo at this blog (Latest)</button>
+<button class="btnMedium buttonOrange" onclick="javascript:window.location.href='https://md5calculator.glitch.me/'"><i class="fa fa-server" aria-hidden="true"></i> Demo at glitch.me (Abandoned)</button>
 <button class="btnMedium buttonWhite" onclick="javascript:window.location.href='https://github.com/Orangelop/md5-calculator'"><i class="fa fa-code" aria-hidden="true"></i> Source Code</button>  
 A simpfied MD5 Calculator.  
-**Notice: We will not store any content that you enter. **
+Notice: We will not store any content that you enter.  
 
 ## <i class="fa fa-code" aria-hidden="true"></i> colourful.css
 
