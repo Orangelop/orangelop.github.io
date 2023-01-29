@@ -8,7 +8,7 @@
     *zoom: 1;
 }
 .page {
-    width: 1140px;
+    width: 1400px;
     box-sizing: border-box;
     margin: 0 auto;
     // word-break: break-all;
@@ -16,7 +16,7 @@
         border-radius: 10px;
     }
     .left {
-        width: 75%;
+        width: 80%;
         float: left;
         padding: 20px 30px;
         line-height: 1.6;
@@ -101,7 +101,7 @@
     }
     .right {
         float: left;
-        width: 25%;
+        width: 20%;
         padding-left: 20px;
         top: 0;
         .fixed {

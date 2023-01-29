@@ -3,7 +3,7 @@ layout: post
 title: Arch Linux 安装教程
 date:   2020-06-14 12:00:00
 categories: Linux
-tags: ArchLinux Linux
+tags: Arch Linux
 author: Orangelop aka. null.
 excerpt: Arch Linux 安装教程
 ---

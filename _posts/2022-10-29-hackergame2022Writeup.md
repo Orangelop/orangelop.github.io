@@ -17,9 +17,9 @@ excerpt: hackergame2022 (第九届中科大信安赛) Writeup
 苦逼高中牲是这样的  
 binary和math真的一题不会，有可能是我比较笨。。。
 
-```text
-math: 0
-```
+    ```text
+    math: 0
+    ```
 
 ## 签到
 
