@@ -54,7 +54,7 @@ excerpt: 想用安卓模拟器玩明日方舟的，可是内存过小用不了WS
 
 ### 在Google处注册设备以使用GMS
 
-安装并启动后的Waydroid打开Googole Play会提示`Device is not Play Protect certified`，解决方案如下：
+安装并启动后的Waydroid打开Google Play会提示`Device is not Play Protect certified`，解决方案如下：
 
 * `sudo pacman -S lzip sqlite`  
 * `cd ~`  

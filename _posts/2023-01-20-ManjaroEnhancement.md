@@ -41,17 +41,17 @@ The transparency settings were removed as a side effect of 2bff4b63ed3ceef6055e3
 
 有一次vmware虚拟机突然掉电后右上角就没了有线连接，设置里也没了，用`sudo lshw -C network`列出的列表里出现了类似于以下的东西：
 
-      ```text
-      *-network DISABLED               
-            description: ***
-            product: ***
-            vendor: ***
-            physical id: ***
-            bus info: ***
-            logical name: ***
-            version: ***
-            serial: ***
-      ```
+```text
+*-network DISABLED               
+      description: ***
+      product: ***
+      vendor: ***
+      physical id: ***
+      bus info: ***
+      logical name: ***
+      version: ***
+      serial: ***
+```
 
 可以看到被禁用了，网上有解决方案，类似于[这里](https://blog.csdn.net/weixin_48408016/article/details/128675899)，但是也有很多不行的方案，纯粹放屁污染环境的那种，这里列出正确的方案。  
 
@@ -61,12 +61,12 @@ The transparency settings were removed as a side effect of 2bff4b63ed3ceef6055e3
 * `sudo vim /var/lib/NetworkManager/NetworkManager.state`
 * 将`[main]`里面的`NetworkingEnabled`设置为true，如果文件是空白的，填入如下内容：  
 
-      ```conf
-      [main]
-      NetworkingEnabled=true
-      WirelessEnabled=true
-      WWANEnabled=true
-      ```
+```conf
+[main]
+NetworkingEnabled=true
+WirelessEnabled=true
+WWANEnabled=true
+```
 
 * `sudo systemctl start NetworkManager`
 
