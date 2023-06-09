@@ -46,7 +46,7 @@ PSReadline的历史记录不是随着进程启停的，用的时间长了之后�
 
 这里给出一个配置好的Profile，大家可以自行探索更多用法：
 
-    ```powershell
+```powershell
     #------------------------------- Welcome --------------------------------------------
     $hello="Welcome back, Orangelop."
     $hello
@@ -76,8 +76,7 @@ PSReadline的历史记录不是随着进程启停的，用的时间长了之后�
     # 设置向下键为前向搜索历史纪录
     Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
     #-------------------------------  Set Hot-keys END    -------------------------------
-
-    ```
+```
 
 ## Schemes 配色文件
 

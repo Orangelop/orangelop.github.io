@@ -19,7 +19,7 @@ icon: home
                       <i class="fa fa-calendar-o" aria-hidden="true"></i>{{ post.date | date: "%F" }}
                     </div>
                     <div class="label-card">
-                        {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
+                        <!--{% if post.author %}<i class="fa fa-user"></i>{{ post.author }}-->
                         {% endif %}
                     </div>
                     <div class="label-card">
@@ -32,9 +32,9 @@ icon: home
                 <div class="excerpt">
                     {{post.excerpt}}
                 </div>
-                <div class="read-all">
+                <!--div class="read-all">
                     <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-external-link-square" aria-hidden="true"></i>Further reading...</a>
-                </div>
+                </div-->
                 <hr>
               </li>
             {% endfor %}
