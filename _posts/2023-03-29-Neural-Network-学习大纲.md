@@ -3,7 +3,7 @@ layout: post
 title: Neural Network & Deep Learning 学习大纲
 date: 2023-03-29 12:00:00
 categories: 神经网络 深度学习
-tags: 神经网络 深度学习
+tags: 神经网络 深度学习 Unfinished
 author: Orangelop aka. null.
 excerpt: Neural Network & Deep Learning 学习大纲：数理基础（卷积、聚类算法、蒙特卡洛树搜索、SVM、Boosting算法）、自然语言处理模型、预训练模型、TensorFlow
 ---

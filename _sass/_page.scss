@@ -76,6 +76,12 @@
                     }
                 }
                 .pageTag {
+                    .unfinished-post {
+                        background-color: #fc1f4f;
+                        i {
+                            color: #fff;
+                        }
+                    }
                     i {
                         // color: #000000;
                         color: #333;
