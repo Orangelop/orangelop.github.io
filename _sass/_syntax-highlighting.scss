@@ -2,8 +2,7 @@
  * Syntax highlighting styles
  */
 
-/** 没鸡巴用，马上删掉改用prism */
-code{
+code {
     padding: 1px 4px;
     margin: 0 2px;
     font-size: 90%;
@@ -11,7 +10,8 @@ code{
     color: #000;
     background-color: rgba(0, 0, 0, 0.06);
     border: 1px solid #d7d0d2;
-    font-family: Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;
+    /* stackoverflow style */
+    font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
 }
 
 pre {

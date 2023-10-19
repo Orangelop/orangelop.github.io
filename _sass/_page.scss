@@ -176,9 +176,7 @@
                 padding-left: 20px;
             }
         }
-        .music-list {
-            // background-image: linear-gradient(45deg,#fa4fc1 0,#db005b);
-        }
+
     }
 }
 @media screen and (max-width:1200px) and (min-width: 770px) {
@@ -243,11 +241,10 @@
             visibility: hidden;
         }
         .right {
+            font-size: 14px;
             visibility: hidden;
-
             // display: none;
             position: fixed;
-
             // z-index: 190;
             float: none;
             width: auto;

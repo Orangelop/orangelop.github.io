@@ -44,10 +44,11 @@ header {
         }
         small {
             margin-left: 5px;
-            font-size: 14px;
+            // font-size: 14px;
             text-decoration: solid;
             box-sizing: border-box;
             font-weight: bold;
+            font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
         }
         .menu{
             display: none;
@@ -60,7 +61,7 @@ header {
                 padding: 0;
                 li {
                     list-style: none;
-                    font-size: 14px;
+                    // font-size: 14px;
                     display: inline-block;
                     -webkit-transition: 0.5s ease;
                     transition: 0.5s ease;

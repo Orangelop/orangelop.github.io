@@ -75,6 +75,8 @@ icon: home
                 <div><i class="fa fa-th-list"></i> Catagory <a href="../category/"><small>Show all...</small></a></div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories %}
+                    <!-- 省去部分标签 -->
+                    {% if category.size >=2 %}
                     <li>
                         <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
                             <span class="name">
@@ -83,6 +85,7 @@ icon: home
                             <span class="badge">{{ category | last | size }}</span>
                         </a>
                     </li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>

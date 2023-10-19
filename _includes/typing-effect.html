@@ -1,4 +1,3 @@
-
 <!-- Typing effect show div -->
 <small id="text"></small>
 
@@ -11,7 +10,7 @@
   function typing () {
     if (i <= str.length) {
       divTyping.innerHTML = str.slice(0, i++) + '_'
-      timer = setTimeout(typing, 100)
+      timer = setTimeout(typing, 150)
     }
     else {
       divTyping.innerHTML = str // Remove cursor '_' after typing is done.
