@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在Arch Linux（Manjaro）下使用Waydroid运行Android Apps
+title: 在 Arch Linux（Manjaro）下使用 Waydroid 运行 Android Apps
 date: 2023-01-27 12:01:00
 categories: Manjaro Arch Linux
 tags: Manjaro Linux Arch

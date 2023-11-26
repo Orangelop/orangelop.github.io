@@ -35,6 +35,9 @@ body {
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
+    .post-link, .post-title {
+        font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
+    }
 }
 a {
     text-decoration: none;

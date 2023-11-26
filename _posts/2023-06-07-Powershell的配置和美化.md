@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Powershell的配置和美化
+title: Powershell 的配置和美化
 date: 2023-06-07 01:00:00
 categories: Powershell shell
 tags: Powershell shell

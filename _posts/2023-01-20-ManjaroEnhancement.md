@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manjaro的一些优化
+title: Manjaro 的一些优化
 date: 2023-01-27 12:01:00
 categories: Manjaro Linux
 tags: Manjaro Linux

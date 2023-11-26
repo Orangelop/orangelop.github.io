@@ -484,6 +484,23 @@ flag{you-ve-r3cover3d-7he-an5w3r-r1ght?}
 
 ## 🪐 小型大语言模型星球
 
+### You are smart
+
+### Accepted
+
+### Hackergame
+
+### 🐮
+
 ## 🪐 流式星球
 
 ## 🪐 低带宽星球
+
+### 小试牛刀
+
+转换成webp即可通过。  
+得到flag：`flag1: flag{A1ot0f_t0015_is_available_to_compre55_PNG}`  
+
+### 极致压缩
+
+Jpeg XL
