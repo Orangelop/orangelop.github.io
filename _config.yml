@@ -1,7 +1,7 @@
 # Site settings
 title: orangelop
 brief-intro: root@localhost# ==> Code is poetry.
-small_introduction: Chinese, Senior High Student, Frontend & Semi-backend Programmer, Founder & Owner of <em>LME</em>. 
+small_introduction: Chinese, Senior High School Student, Frontend & Semi-backend Programmer, Founder & Owner of <em>LME</em>. 
 # Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
 welcome: Welcome to my blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,7 +23,7 @@ disqus_comments_shortname:
 # orangelop-blog
 google_analytics_id:
 # G-54SGB2GV90
-# 2022/10/15 not useable in CN
+# 2022/10/15 not avaliable in CN
 
 # Build settings
 markdown: kramdown

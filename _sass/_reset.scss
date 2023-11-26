@@ -35,9 +35,6 @@ body {
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
-    .post-link, .post-title {
-        font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
-    }
 }
 a {
     text-decoration: none;
@@ -49,6 +46,9 @@ hr {
 }
 
 ///////////
+h1,h2,h3,h4,h5,h6 {
+    font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
+}
 h1 {
     font-size: 30px;
 }

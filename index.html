@@ -5,7 +5,8 @@ icon: home
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1 class="welcome"><i class="fa fa-{{ page.icon }}" aria-hidden="true"></i> {{ site.welcome }}</h1>
+      <!--<i class="fa fa-{{ page.icon }}" aria-hidden="true">-->
+        <h1 class="welcome"></i> {{ site.welcome }}</h1>
         <small>{{ site.small_introduction }}</small>
         <hr>
         <ul>
@@ -77,7 +78,7 @@ icon: home
                     {% for category in site.categories %}
                     <!-- 省去部分标签 -->
                     <!-- idk why but didnt work -->
-                    {% if category >= 3 %}
+                    {% if category >= 2 %}
                     <li>
                         <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
                             <span class="name">
