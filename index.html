@@ -78,7 +78,7 @@ icon: home
                     {% for category in site.categories %}
                     <!-- 省去部分标签 -->
                     <!-- idk why but didnt work -->
-                    {% if category >= 2 %}
+                    {% if category.size >= 2 %}
                     <li>
                         <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
                             <span class="name">

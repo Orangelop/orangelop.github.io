@@ -503,4 +503,5 @@ flag{you-ve-r3cover3d-7he-an5w3r-r1ght?}
 
 ### 极致压缩
 
-Jpeg XL
+Jpeg XL 是一种非常压缩的图片格式。  
+
