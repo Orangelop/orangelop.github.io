@@ -1,7 +1,12 @@
 # Site settings
 title: orangelop
+<<<<<<< HEAD
 brief-intro: root@localhost# ==> Code is poetry.
 small_introduction: Chinese, Senior High School Student, Frontend & Semi-backend Programmer, Founder & Owner of <em>LME</em>. 
+=======
+brief-intro: Code is poetry.
+small_introduction: Chinese, Senior High Student, Frontend & Semi-backend Programmer, Founder & Owner of <em>LME</em>. 
+>>>>>>> 03d2193c93609be724d925c95ffc5c46000d863a
 # Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
 welcome: Welcome to my blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
