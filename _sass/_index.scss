@@ -10,9 +10,11 @@
     .welcome  {
       font-weight: bold;
       color: #000000;
+      font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
     }
     small {
       color: #333;
+      font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
     }
     > ul {
       padding: 0;
@@ -140,6 +142,7 @@
         .tags-cloud {
           font-weight: normal;
           border-bottom: none;
+          font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Liberation Mono",Menlo,Monaco,Consolas,monospace;
           a {
             padding: 0 3px;
             border-radius: 5px;
