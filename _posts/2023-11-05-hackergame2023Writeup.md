@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Hackergame2023 Writeup
+title: Hackergame 2023 Writeup
 date: 2023-11-05 00:00:00
 categories: CTF
 tags: hackergame CTF
-author: Orangelop aka. null.
+author: Orangelop
 excerpt: hackergame2023 (第十届中科大信安赛) Writeup
 ---
 

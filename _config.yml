@@ -2,10 +2,9 @@
 title: orangelop
 brief-intro: Code is poetry.
 small_introduction: Chinese, Senior High Student, Frontend & Semi-backend Programmer, Founder & Owner of <em>LME</em>. 
-# Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
 welcome: Welcome to my blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://orangelop.github.io" # the base hostname & protocol for your site
+url: "https://orangelop.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
@@ -40,7 +39,7 @@ excerpt_separator: "\n\n\n\n"
 
 # 分页
 gems: [jekyll-paginate]
-paginate: 6
+paginate: 8
 
 plugins:
   - jekyll-feed
@@ -49,4 +48,4 @@ plugins:
   - jekyll-paginate
   
 # port
-port: 11112
+port: 12345

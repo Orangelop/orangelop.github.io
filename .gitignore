@@ -3,6 +3,7 @@
 .jekyll-cache
 .sass-cache
 _site
+.gitignore
 vendor
 Gemfile.lock
 .vs\
@@ -12,3 +13,6 @@ Gemfile.lock
 _posts/1900-01-01-emoji-test.md
 _posts/1900-01-01-test01.md
 _posts/2021-08-21-PhysicsFormulas.md
+_posts/2023-06-15-stableDiffusion.md
+_posts/2023-06-07-实用逆向、网络攻防工具集合.md
+_posts/2022-12-17-COVID-19.md
