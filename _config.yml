@@ -2,11 +2,7 @@
 title: orangelop
 brief-intro: Code is poetry.
 small_introduction: Chinese, Senior High Student, Frontend & Semi-backend Programmer, Founder & Owner of <em>LME</em>. 
-<<<<<<< HEAD
-=======
->>>>>>> 03d2193c93609be724d925c95ffc5c46000d863a
 # Frontend & Backend, Python, Linux, Electronic music, Mathematics, Physics, Chemistry
->>>>>>> 5ca8c66593b6c67e2cd02a668e99738f9dbfd9ef
 welcome: Welcome to my blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://orangelop.github.io" # the base hostname & protocol for your site
