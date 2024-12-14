@@ -107,7 +107,3 @@ async def challenge_2(user_input):
 ```
 
 得到flag1：flag{jailbreak-master-unleashed}；flag2：flag{llm-hacker-amateur}。  
-
-## 新穷铁道
-
-Stegsolve直接看到文件末尾有东西：  

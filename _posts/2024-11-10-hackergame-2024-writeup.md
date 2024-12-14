@@ -15,6 +15,7 @@ excerpt: Hackergame 2024 (第十一届中科大信安赛) Writeup
 
 苦逼高三生休息时间打ctf（  
 反正是高中最后一次了，挺不容易的。  
+我还会回来的（  
 
 ```text
 当前分数：1700， 总排名：373 / 2460
@@ -242,7 +243,7 @@ flag{!-@m-tHE-H@CkER-K1nG-oF-C0MpariNg-nUmBer5-ZoZ4}
 
 答案：`20240519`  
 B站上搜搜就有了，[一个例子](https://www.bilibili.com/video/BV1mr421w74g/?spm_id_from=333.1007.top_right_bar_window_history.content.click) 该视频简介中就有提及。
-flag{5UB5CR1B3_T0_L30_CH4N_0N_B1L1B1L1_PLZ_040af3e22d}  
+flag{5UB5CR1B3_T0_L30_CH4N_0N_B1L1B1L1_PLZ_xxx}  
 
 ### FULL_RECALL
 
@@ -268,7 +269,7 @@ flag{D3T41LS_M4TT3R_1F_R3V3RS3_S34RCH_1S_1MP0SS1BL3_bc4cba248b}
 
 答案：`CRH6F-A`  
 [知乎 - Julien的铁路文化 - 北京北郊铁路运转（S2、京张高铁、S5、S6）](https://zhuanlan.zhihu.com/p/163787440?utm_id=0) 与 [结果](https://baijiahao.baidu.com/s?id=1814068057932414070&wfr=spider&for=pc) 均提及了该车型为 `CRH6F-A`。  
-flag{1_C4NT_C0NT1NU3_TH3_5T0RY_4NYM0R3_50M30N3_PLZ_H3LP_fa9997062e}  
+flag{1_C4NT_C0NT1NU3_TH3_5T0RY_4NYM0R3_50M30N3_PLZ_H3LP_xxx}  
 
 ## 不宽的宽字符
 
@@ -291,7 +292,7 @@ char     |        t        |        h        |        e        |        f       
 
 ```
 
-flag{wider_char_isnt_so_great_d9ba5f211d}  
+flag{wider_char_isnt_so_great_xxx}  
 
 ## PowerfulShell
 
@@ -359,7 +360,7 @@ print("(0|1|2|3|4|5|6|7|8|9)*(0000" + b +')')
 print('(0|1|2|3|4|5|6|7|8|9)*' + '(' + '|'.join(f'{i:04d}' for i in range(0, 10000, 16)) + ')')
 ```
 
-flag{p0werful_r3gular_expressi0n_easy_e763868d2d}
+flag{p0werful_r3gular_expressi0n_easy_xxx}
 
 ### Medium
 
@@ -435,7 +436,7 @@ print(regex)
 # res.length = 7279
 ```
 
-flag{pow3rful_r3gular_expressi0n_medium_3240b4dd49}
+flag{pow3rful_r3gular_expressi0n_medium_xxx}
 
 ### Hard
 
@@ -515,20 +516,12 @@ print(regex)
 
 ### 题目 B
 
-不会，赛后看选手wp，这个用掏GPU枚举的我真的没想到 [Mako #Ciallo～(∠・ω< )⌒★ writeup](https://github.com/USTC-Hackergame/hackergame2024-writeups/blob/master/players/Mako%20%23Ciallo%EF%BD%9E(%E2%88%A0%E3%83%BB%CF%89%20)%E2%8C%92%E2%98%85/wp.md)
+不会，赛后看选手wp，这个用掏GPU枚举的我真的没想到 [Mako #Ciallo～(∠・ω< )⌒★ writeup](https://github.com/USTC-Hackergame/hackergame2024-writeups/blob/master/players/Mako%20%23Ciallo%EF%BD%9E(%E2%88%A0%E3%83%BB%CF%89%20)%E2%8C%92%E2%98%85/wp.md)  
 
 ### 题目 C
 
 不会
 
-## 优雅的不等式
-
 ## 无法获得的秘密
 
-[](https://github.com/USTC-Hackergame/hackergame2024-writeups/blob/master/players/Mako%20%23Ciallo%EF%BD%9E(%E2%88%A0%E3%83%BB%CF%89%20)%E2%8C%92%E2%98%85/wp.md)
-
-## Docker for Everyone Plus
-
-## 关灯
-
-## 先不说关于我从零开始独自在异世界转生成某大厂家的 LLM 龙猫女仆这件事可不可能这么离谱，发现 Hackergame 内容审查委员会忘记审查题目标题了ごめんね，以及「这么长都快赶上轻小说了真的不会影响用户体验吗🤣」
+[大神们的方法多种多样.jpg](https://github.com/USTC-Hackergame/hackergame2024-writeups/blob/master/players/Mako%20%23Ciallo%EF%BD%9E(%E2%88%A0%E3%83%BB%CF%89%20)%E2%8C%92%E2%98%85/wp.md)
