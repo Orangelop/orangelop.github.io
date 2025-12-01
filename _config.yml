@@ -1,7 +1,7 @@
 # Site settings
 title: orangelop
 brief-intro: Code is poetry.
-small_introduction: Chinese, Senior High Student, Frontend & Backend Programmer, Founder & Owner of <a href='https://lmestudio.github.io'><em>LME Institute</em></a>. 
+small_introduction: Chinese, Undergraduate Student of Soochow University (Currently Studying Intelligent Manufacturing Engineering), Frontend & Backend Programmer, Founder & Owner of <a href='https://lmestudio.github.io'><em>LME Institute</em></a>. 
 welcome: Welcome to my blog (｡･∀･)ﾉﾞ!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://orangelop.github.io" # the base hostname & protocol for your site
